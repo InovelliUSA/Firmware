@@ -1,4 +1,4 @@
-## <b>Inovelli Blue Series 2-1 Switch (On/Off & Dimmer)</b>
+## <b>Inovelli Red Series Dimmer Switch</b>
 *This is the repository for the Inovelli Red Series Switch that houses all firmware files along with release notes.*
 
 ### About
