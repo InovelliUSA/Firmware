@@ -4,8 +4,8 @@
 ### About
 
 <img
-     src = 'https://community.inovelli.com/uploads/default/original/2X/0/0f0a12c8d29b384ac98ee294585b69342662b4c9.png'
-     alt = 'Inovelli Blue Series 2-1 Switch (On/Off or Dimemr)'
+     src = 'https://cdn.shopify.com/s/files/1/0612/9519/8373/products/InovelliOn-OffSwitch_1800x1800.png.jpg?v=1659052561'
+     alt = 'Inovelli Blue Series 2-1 Switch On/Off'
      width = 400
 />
 
