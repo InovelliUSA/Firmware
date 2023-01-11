@@ -36,6 +36,24 @@ Date in Production: March 2023
 
 
 
+<table>
+  <tr>
+    <th>Parameter</th>
+    <th>Range</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td><strong>Parameter 1</strong <br> Dimming Speed (Dimming Up)</td>
+    <td>[1 Byte], 0-254</td>
+    <td>This changes the speed in which the attached light dims up or down when controlled from the physical switch</td>
+  </tr>
+  <tr>
+    <td>Centro comercial Moctezuma</td>
+    <td>Francisco Chang</td>
+    <td>Mexico</td>
+  </tr>
+</table>
 
 
 
