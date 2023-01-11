@@ -9,69 +9,40 @@ Below we will describe the various parameters as well as list the most recent fi
 ### Firmwave Version 0.03
 Date in Production: March 2023
 
-<table>
-  <tr>
-    <th>#</th>
-    <th>Parameter Name</th>
-    <th>Byte Size</th>
-    <th>Range</th>
-    <th>Description</th>
-    <th>Default</th>
-  </tr>
-  <tr>
-    <td>1</td>
-    <td>Dimming Speed (Dimming Up)</td>
-    <td>1</td>
-    <td>0-254</td>
-    <td>This changes the speed in which the attached light dims up or down when controlled from the physical switch
-      <br><br>
-      Test test test tes
-  </tr>
-  <tr>
-    <td>Centro comercial Moctezuma</td>
-    <td>Francisco Chang</td>
-    <td>Mexico</td>
-  </tr>
-</table>
+**NOTE:** Some parameters are only available in dimmer mode and are called out in the, "About" section with the words, "Dimmer Mode Only".
 
-
-
-<table>
-  <tr>
-    <th>Parameter</th>
-    <th>Range [Size]</th>
-    <th>Description</th>
-  </tr>
-  <tr>
-    <td><strong>Parameter 1</strong> <br/> Dimming Speed (Dimming Up)</td>
-    <td>0-254 [1 Byte]</td>
-    <td>This changes the speed in which the attached light dims up or down when controlled from the physical switch</td>
-  </tr>
-  <tr>
-    <td>Centro comercial Moctezuma</td>
-    <td>Francisco Chang</td>
-    <td>Mexico</td>
-  </tr>
-</table>
-
-
-
-<b>Parameter # 1:</b>	Dimming Speed (Dimming Up)
-<br>
-<b>Byte Size:</b> 1	
-<br>
-Range: 0-254	
-<br>
-Description: This changes the speed in which the attached light dims up or down. A setting of 0 should turn the light immediately on or off (almost like an on/off switch). Increasing the value should slow down the transition speed.
-<ul>
-  <li>0-100 in ms, (0-10000 ms)</li>
-  <li>101-160 in seconds, (1-59 seconds)</li>
-  <li>161 - 254 in minutes (1-93 minutes)"</li>
-</ul>
-
-2	Dimming Speed (From Switch) (Dimming Up)	1	0-255	"Now in 100ms. This changes the speed in which the attached light dims up or down when controlled from the physical switch. A setting of 0 should turn the light immediately on or off (almost like an on/off switch). Increasing the value should slow down the transition speed. A setting of 255 should keep this in sync with parameter 1.
-
-0-100 in ms, (0-10000 ms) (not support 1~4)
-101-160 in seconds, (1-59 seconds)
-161 - 254 in minutes (1-93 minutes)
-255- Keep in sync with parameter 1
+|#|About|Description|Range|Default|Size (Bytes)|
+|:---:|---|---|:---:|:---:|:---:|
+|1|Dimming Speed (↑) - Remote<br/><br/><b/>Dimmer Mode Only|How fast or slow the light turns on when you change the dim level remotely (ie: dimming from 10-20%, 60-80%, etc)<br><details><summary><b>More Details</b></summary><br>0 = Instant On<br>5 = Fast (500ms)<br>126 = Slow (12.6s)<br><br><b>IF USING A DUMB SWITCH:</b> This parameter will not work when pressing the dumb switch manually.<br><b>NOTE:</b> Third party code may need to be implemented (device handler, driver, etc) for this to work properly. Some hubs may not support this feature.</details>|0-126|25 <br>(2.5s)|1|
+|2|Dimming Speed (↑) - Local<br><br><b>Dimmer Mode Only</b>|How fast or slow the light the light turns on when you hold up on the switch (ie: dimming from 10-20%, 60-80%, etc)<details><summary><b>More Details</b></summary><br>0 = Instant On<br>5 = Fast (500ms)<br>126 = Slow (12.6s)<br>127 = Sync to Parameter 1<br><br><b>IF USING A DUMB SWITCH:</b> This parameter will not work when pressing the dumb switch manually.</details>|0-127|127|1|
+|3|Ramp Rate (Off → On) - Remote<br><br><b>Dimmer Mode Only</b>|How fast or slow the light turns on when you remotely bring the switch from Off to On<details><summary><b>More Details</b></summary><br>0 = Instant On<br>5 = Fast (500ms)<br>126 = Slow (12.6s)<br>127 = Sync to Parameter 1<br><br><b>NOTE:</b> Third party code may need to be implemented (device handler, driver, etc) for this to work properly. Some hubs may not support this feature.|0-127|127|1|
+|4|Ramp Rate (Off → On) - Local<br><br><b>Dimmer Mode Only</b>|How fast or slow the light turns on when you press the switch up 1x to bring from Off to On<details><summary><b>More Details</b></summary><br>0 = Instant On<br>5 = Fast (500ms)<br>126 = Slow (12.6s)<br>127 = Sync to Parameter 3|0-127|127|1|
+|5|Dimming Speed (↓) - Remote<br><br><b>Dimmer Mode Only</b>|How fast or slow the light turns off when you change the dim level remotely (ie: dimming from 80-60%, 20-10%, etc)<details><summary><b>More Details</b></summary><br>0 = Instant Off<br>5 = Fast (500ms)<br>126 = Slow (12.6s)<br>127 = Sync to Parameter 1<br><br><b>IF USING A DUMB SWITCH:</b> This parameter will not work when pressing the dumb switch manually.<br><b>NOTE:</b> Third party code may need to be implemented (device handler, driver, etc) for this to work properly. Some hubs may not support this feature.|0-127|127|1|
+|6|Dimming Speed (↓) - Local<br><br><b>Dimmer Mode Only</b>|How fast or slow the light the light turns off when you hold down on the switch (ie: dimming from 80-60%, 20-10%, etc)<details><summary><b>More Details</b></summary><br>0 = Instant Off<br>5 = Fast (500ms)<br>126 = Slow (12.6s)<br>127 = Sync to Parameter 2<br><br><b>IF USING A DUMB SWITCH:</b> This parameter will not work when pressing the dumb switch manually.|0-127|127|1|
+|7|Ramp Rate (On → Off) - Remote<br><br><b>Dimmer Mode Only</b>|How fast or slow the light turns on when you remotely bring the switch from Off to On<details><summary><b>More Details</b></summary><br>0 = Instant Off<br>5 = Fast (500ms)<br>126 = Slow (12.6s)<br>127 = Sync to Parameter 3<br><b>NOTE:</b> Third party code may need to be implemented (device handler, driver, etc) for this to work properly. Some hubs may not support this feature.|0-127|127|1|
+|8|Ramp Rate (On → Off) - Local<br><br><b>Dimmer Mode Only</b>|How fast or slow the light turns on when you press the switch up 1x to bring from Off to On<details><summary><b>More Details</b></summary><br>0 = Instant Off<br>5 = Fast (500ms)<br>126 = Slow (12.6s)<br>127 = Sync to Parameter 4|0-127|127|1|
+|9|Minimum Dim Level<br><br><b>Dimmer Mode Only</b>|Minimum level the light switch will dim to<details><summary><b>More Details</b></summary><br>Lower the numeric value = lower the min dim level (1 = ~1%)<br><br>Higher the numeric value = higher the min dim level (254 = ~99%)<br><br>Great for fixing flickering bulbs or calibrating the bulb if it shuts off prior to 1%<br><br><b>HUB NOTE:</b> Some hub user interfaces may show a range of 1-99 as available inputs. This is because it's easier to think in terms of 0-100% instead of calculating what number out of 255 is equal to x%.|1-254|1|1|
+|10|Maximum Dim Level<br><br><b>Dimmer Mode Only</b>|Maximum level the light switch will dim to<details><summary><b>More Details</b></summary><br>Lower the numeric value = lower the max dim level (2 = ~2%)<br><br>Higher the numeric value = higher the max dim level (255 = ~100%)<br><br><b>NOTE:</b> Great for calibrating a bulb when it reaches maximum level before 100%<br><br><b>HUB NOTE:</b> Some hub user interfaces may show a range of 2-100 as available inputs. This is because it's easier to think in terms of 0-100% instead of calculating what number out of 255 is equal to x%.|2-255|255|1|
+|11|Invert Switch|Inverts the switch  (Tapping ↓ = On, Tapping ↑ = Off)<details><summary><b>More Details</b></summary><br>0 = Disabled<br>1 = Enabled|0-1|0|1|
+|12|Auto Off Timer|Automatically turns the switch off after x amount of seconds<details><summary><b>More Details</b></summary><br>0 = Disabled<br>1 = 1s<br>32767 = 32767s|0-32767|0|2|
+|13|Default Level - Local<br><br><b>Dimmer Mode Only</b>|The default dim level the switch goes to when turned on locally (at the switch)<details><summary><b>More Details</b></summary><br>0 = Off<br>1-254 = Specific level on<br>255 = Returns to prior state it was before being turned off<br><br><b>HUB NOTE:</b> Some hub user interfaces may show a range of 1-100 as available inputs. This is because it's easier to think in terms of 0-100% instead of calculating what number out of 255 is equal to x%.|0-255|255|1|
+|14|Default Level - Remote<br><br><b>Dimmer Mode Only</b>|The default dim level the switch goes to when powered on via a remote command<details><summary><b>More Details</b></summary><br>0 = Off<br>1-254 = Specific level on<br>255 = Returns to prior state it was before being turned off<br><br><b>HUB NOTE:</b> Some hub user interfaces may show a range of 1-100 as available inputs. This is because it's easier to think in terms of 0-100% instead of calculating what number out of 255 is equal to x%.|0-255|255|1|
+|15|Level After Power Restored|When power is restored, the switch reverts to either On, Off, or Last Level<details><summary><b>More Details</b></summary><br>0 = Off<br>1-254 = Specific level on<br>255 = Returns to level before power outage|0-255|255|1|
+|17|LED Indicator Timeout|Changes the amount of time (in seconds) the RGB Bar shows the Dim level<details><summary><b>More Details</b></summary><br>0 = Always off<br>1 = 1 second after level is adjusted<br>10 = 10 seconds after level is adjusted<br>11 = Always on|0-11|11|1|
+|18|Active Power Reports|The power level change that will result in a new power report being sent in wattage (W)<details><summary><b>More Details</b></summary><br>0 = Disabled<br>1 = 0.1W change<br>10 = 1W change<br>100 = 10W change<br>32767 = 3276.7W|0-32767|10|2|
+|19|Periodic Power & Energy Reports|Time period between consecutive power and energy reports being sent (in seconds)<details><summary><b>More Details</b></summary><br>0 = Disabled<br>1 = 1s<br>32767 = 32767s<br><br>NOTE: Timer resets after every report is sent|0-32767|3600|2|
+|20|Energy Reports|The energy level change that will result in a new energy report being sent in kilowatt hours (kWh)<details><summary><b>More Details</b></summary><br>0 = Disabled<br>1 = 0.01kWh<br>10 = 0.1kWh<br>100 = 1kWh<br>32767 = 327.67kWh|0-32767|10|2|
+|21|AC Power Type|Select whether you are wiring your switch with or without a neutral wire<details><summary><b>More Details</b></summary><br>0 = No-Neutral<br>1 = Neutral|0-1|1|1|
+|22|Switch Type|Select what type of installation you have<details><summary><b>More Details</b></summary><br>0 = Single-Pole (ie: one switch)<br>1 = Multi-Way (Dumb Switch)<br>2 = Multi-Way (Auxiliary Switch)|0-2|0|1|
+|50|Switch Delay|Adjusts the delay between taps in 100ms increments<br>0 = 0ms (disables multi-tap scene control), 1 = 100ms, 2 = 200ms, 9 = 900ms)|0-9|7|1|
+|52|Smart Bulb Mode|Enables or disables smart bulb mode<details><summary><b>More Details</b></summary><br>0 = Disable SBM<br>1 = Enable SBM|0-1|0|1|
+|95|LED Indicator Color (When On) - LED #'s 1-7|This will set the default color of the LED Bar (all 7 LED's) when the switch is on<details><summary><b>More Details</b></summary><br>Calculated by using a hue color circle (Value / 255 * 360). See website for more info.|0-255|170 (Blue)|3|
+|96|LED Indicator Color (When Off) - LED #'s 1-7|This will set the default color of the LED Bar (all 7 LED's) when the switch is off<details><summary><b>More Details</b></summary><br>Calculated by using a hue color circle (Value / 255 * 360). See website for more info.|0-255|170 (Blue)|3|
+|97|LED Indicator Intensity (When On) - LED #'s 1-7|This will set the intensity (ie: how bright it is) of the LED bar (all 7 LED's) when the switch is on<details><summary><b>More Details</b></summary><br>0 = Off<br>10 = Low<br>50 = Medium<br>100 = High|0-100|33|1|
+|98|LED Indicator Intensity (When Off) - LED #'s 1-7|This will set the intensity (ie: how bright it is) of the LED bar (all 7 LED's) when the switch is off<details><summary><b>More Details</b></summary><br>0 = Off<br>10 = Low<br>50 = Medium<br>100 = High|0-100|1|1|
+|256|Local Protection|Determines whether or not the load of the switch can be controlled via paddle presses (locally)<details><summary><b>More Details</b></summary><br>0 = Disabled<br>1 = Enabled|0-1|0|1|
+|257|Remote Protection|Determines whether or not the load of the switch can be controlled via RF (remote)<details><summary><b>More Details</b></summary><br>0 = Disabled<br>1 = Enabled|0-1|0|1|
+|258|Switch Mode (Dimmer or On/Off)|Determines the mode of the switch (On/Off or Dimmer)<details><summary><b>More Details</b></summary><br>0 = On/Off<br>1 = Dimmer|0-1|0|1|
+|259|One LED Mode|Switch only shows LED #1 and does not show LED #'s 2-6 -- this mimics the Red Series On/Off switch<details><summary><b>More Details</b></summary><br>0 = Disabled<br>1 = Enabled|0-1|0|1|
+|260|Firmware Progress LED|During a firmware update, the switch will show the progress on the LED Bar<details><summary><b>More Details</b></summary><br>EXAMPLE: 1/4 LED Bar shown = 25%, 1/2 LED Bar shown = 50%, 3/4 LED Bar shown = 75%<br><br>0 = Disable, 1 = Enable|0-1|1|1|
+|261|Disable Relay, "Click" Sound|In neutral on/off setups, the default is to have a clicking sound to notify you that the relay is open or closed. You may disable this sound by creating a, "simulated" on/off where the switch only will turn onto 100 or off to 0.<details><summary><b>More Details</b></summary><br>0 = Disabled (Click Sound On)<br>1 = Enabled (Click Sound Off|0-1|0|1|
