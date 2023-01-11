@@ -29,6 +29,8 @@ If you find a bug and would like to report it, please open a **[Bug Report]** an
 
 Please note that while enhancements may be requested, it may not always be possible for us to do -- we will try our best, but if it cannot be done, we will explain why.
 
+# Changelog
+
 ## V1.22 - 05/10/2021
 #### Bug Fixes
 Fixed the bug that the V1 version of Protection Set Command would cause RF state of Protection to become enabled. This mostly affected Home Assistant users as it is still using V1 of this command class.
