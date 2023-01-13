@@ -35,21 +35,21 @@ Please note that while enhancements may be requested, it may not always be possi
 
 **Note: We are waiting for a PR to go through for HA before releasing it there. Should be released on Hubitat soon. Bump ZHA quirks lib to 0.0.86 by dmulcahey · Pull Request #81966 · home-assistant/core (github.com) 60**
 
-Fix the ability to send commands to a group binding.
+- Fix the ability to send commands to a group binding.
 ### November 8, 2022 / v2.07 / 0x01020207
 
 **Note: It looks like 2.07 introduces a bug with group binding control and it is currently required that you use individual device binding. I’ll post an update when this gets resolved.**
 
-Remove the sending of multicast commands to avoid switches that would accidentally control other devices within a group.
-Fix the wrong destination endpoint used when sending some commands.
+- Remove the sending of multicast commands to avoid switches that would accidentally control other devices within a group.
+- Fix the wrong destination endpoint used when sending some commands.
 ### November 7, 2022 / v2.06 / 0x01020206
 
-Fix for devices that are bound to the switch not using speed parameters 1-8.
+- Fix for devices that are bound to the switch not using speed parameters 1-8.
 ### November 4, 2022 / v2.05 / 0x01020205
 
-Add parameter 262: Disable the “double tap” to clear notifications feature. Users can make it so family members do not clear notifications at the switch. (2.02)
-Improve the speed of sending power reports when load changes from on-to-off or off-to-on. (2.02)
-Added LED notifications: “falling”, “rising”, “aurora single”, and others. (2.02)
-Fix the bug that changes Philips Hue color temperature when dimming down. (2.03)
-Fix for device binding to Innr and possibly other devices. (2.05)
-Ability to change max level in On/Off 3-way dumb mode to accommodate special scenarios. (2.05)
+- Add parameter 262: Disable the “double tap” to clear notifications feature. Users can make it so family members do not clear notifications at the switch. (2.02)
+- Improve the speed of sending power reports when load changes from on-to-off or off-to-on. (2.02)
+- Added LED notifications: “falling”, “rising”, “aurora single”, and others. (2.02)
+- Fix the bug that changes Philips Hue color temperature when dimming down. (2.03)
+- Fix for device binding to Innr and possibly other devices. (2.05)
+- Ability to change max level in On/Off 3-way dumb mode to accommodate special scenarios. (2.05)
