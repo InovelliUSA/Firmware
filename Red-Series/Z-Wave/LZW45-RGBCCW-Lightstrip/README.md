@@ -1,5 +1,5 @@
 ## <b>Inovelli Red Series Color Light Strip</b>
-*This is the repository for the Inovelli Red Series Switch that houses all firmware files along with release notes.*
+*This is the repository for the Inovelli Red Series Light Strip that houses all firmware files along with release notes.*
 
 <img
      src = 'https://cdn.shopify.com/s/files/1/0612/9519/8373/products/InovelliLightStripKit_1800x1800.png.jpg?v=1659052412'
