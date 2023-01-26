@@ -125,3 +125,7 @@ excluded.
 - Change the range of parameter 11 to 0,30-32767 to prevent users from choosing a value that may flood the network. 
 - Switch will send an energy report when first included into the network.
 - Since there is a "protection" that prevents the switch from sending multiple power reports (flooding) when the power is fluctuating frequently, the switch will now send a power report immediately when turned on/off and the "protection" timer will be reset. 
+
+<!----------------------------------------------------------------------------->
+
+[Bug Report]: https://github.com/InovelliUSA/Firmware/issues/new?assignees=&labels=&template=firmware_bug_report.yml&title=%5BBug+Report%5D%3A+PRODUCT+-+FW+VERSION+-+HUB
