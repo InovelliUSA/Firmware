@@ -2,8 +2,6 @@
 *This is the repository for the Inovelli Red Series Switch that houses all firmware files along with release notes.*
 
 ### ABOUT
-The Inovelli Red Series On/Off Switch was produced between September 2019 and December
-
 
 <img
      src = 'https://cdn.shopify.com/s/files/1/0612/9519/8373/products/InovelliOn-OffSwitch_1800x1800.png.jpg?v=1659052561'
