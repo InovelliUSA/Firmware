@@ -32,6 +32,8 @@ Please note that while enhancements may be requested, it may not always be possi
 ***
 
 ## FIRMWARE CHANGELOG
+Please see below for a summary of each version's changelog. Each version will also link to its respective parameter and Z-Wave documentation. For the most up-to-date parameter table, please visit the LZW30-SN **[Parameter Table]**. 
+
 
 ### V1.22 - 05/10/2021
 #### Bug Fixes
@@ -128,3 +130,4 @@ excluded.
 
 [Bug Report]: https://github.com/InovelliUSA/Firmware/issues/new?assignees=&labels=&template=firmware_bug_report.yml&title=%5BBug+Report%5D%3A+PRODUCT+-+FW+VERSION+-+HUB
 [Firmware Request]: https://github.com/InovelliUSA/Firmware/issues/new?assignees=&labels=&template=firmware_request.yml&title=%5BFirmware+Request%5D%3A+PRODUCT+-+SUMMARY
+[Parameter Table]: https://github.com/InovelliUSA/Firmware/blob/main/Red-Series/Z-Wave/LZW30-SN-On-Off-Switch/Parameter-Table.md
