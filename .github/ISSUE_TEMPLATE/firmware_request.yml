@@ -1,0 +1,30 @@
+name: Request Firmware
+description: Use this template to request firmware files for your product.
+title: "[Firmware Request]: PRODUCT - SUMMARY"
+body:
+  - type: dropdown
+    id: product
+    attributes:
+      label: What product is the bug report for?
+      multiple: false
+      options:
+        - Blue Series 2-1 Switch (VZM31-SN)
+        - Blue Series Fan Switch (VZM35-SN)
+        - Red Series 2-1 Switch (VZW31-SN)
+        - White Series Add-On (Aux) Switch (AUX01)
+    validations:
+      required: true
+  - type: input
+    id: summary
+    attributes:
+      label: Summary
+      description: Please give a title summary as to what firmware feature you'd like (10 words max).
+    validations:
+      required: true
+  - type: input
+    id: description
+    attributes:
+      label: Description
+      description: Please provide a description of the feature or enhancement you'd like to see and what the use-case is.
+    validations:
+      required: true
