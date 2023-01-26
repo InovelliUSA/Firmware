@@ -1,38 +1,44 @@
----
-name: Firmware Bug report
-about: Use this template to report a problem or bug with a firmware.
-title: ''
-labels: ''
-assignees: ''
-
----
-
-**Describe the bug**
-A clear and concise description of what the bug is.
-
-**To Reproduce**
-Steps to reproduce the behavior:
-1. Go to '...'
-2. Click on '....'
-3. Scroll down to '....'
-4. See error
-
-**Expected behavior**
-A clear and concise description of what you expected to happen.
-
-**Screenshots**
-If applicable, add screenshots to help explain your problem.
-
-**Desktop (please complete the following information):**
- - OS: [e.g. iOS]
- - Browser [e.g. chrome, safari]
- - Version [e.g. 22]
-
-**Smartphone (please complete the following information):**
- - Device: [e.g. iPhone6]
- - OS: [e.g. iOS8.1]
- - Browser [e.g. stock browser, safari]
- - Version [e.g. 22]
-
-**Additional context**
-Add any other context about the problem here.
+name: Firmware Bug Report
+description: Use this template to report a problem/bug with a firmware.
+title: "[Bug Report]: PRODUCT - FW VERSION - HUB"
+body:
+  - type: dropdown
+    id: product
+    attributes:
+      label: What product is the bug report for?
+      multiple: false
+      options:
+        - Blue Series 2-1 Switch (VZM31-SN)
+        - Blue Series Fan Switch (VZM35-SN)
+        - Red Series 2-1 Switch (VZW31-SN)
+        - White Series Add-On (Aux) Switch (AUX01)
+    validations:
+      required: true
+  - type: input
+    id: fwversion
+    attributes:
+      label: FW Version
+      description: Please provide the FW version to which this bug relates.
+    validations:
+      required: true
+  - type: input
+    id: hub
+    attributes:
+      label: Hub
+      description: Please provide the hub or gateway you are using to which this bug relates.
+    validations:
+      required: true
+  - type: textarea
+    id: bugdescription
+    attributes:
+      label: Bug Report Details
+      description: Please outline the bug behavior.
+    validations:
+      required: true
+  - type: textarea
+    id: bugrecreate
+    attributes:
+      label: How To Reproduce
+      description: Please describe the steps that lead to the bug occuring.
+    validations:
+      required: true
