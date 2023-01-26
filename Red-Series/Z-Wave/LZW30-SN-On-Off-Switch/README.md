@@ -1,7 +1,9 @@
 # <b>Inovelli Red Series On/Off Switch</b>
 *This is the repository for the Inovelli Red Series Switch that houses all firmware files along with release notes.*
 
-### About
+### ABOUT
+The Inovelli Red Series On/Off Switch was produced between September 2019 and December
+
 
 <img
      src = 'https://cdn.shopify.com/s/files/1/0612/9519/8373/products/InovelliOn-OffSwitch_1800x1800.png.jpg?v=1659052561'
@@ -13,7 +15,7 @@ SKU: LZW31-SN
 
 Each folder will have the words, "Beta" or "Production" next to the firmware file indicating what type of firmware is in each folder. **Beta firmware may be unstable and should be used at your own risk.** We do our best to test it prior to releasing it, but there may be bugs that we didn't catch. Production firmware is what was put into production and is deemed stable.
 
-### Disclaimer
+### DISCLAIMER
 The software is provided "as is" to provide our customers the ability to update our products.
 
 Inovelli does not offer any express or implied warranty of any kind when using these files, including, but not limited to, warranties of merchantability, noninfringement, or fitness for a particular purpose. 
@@ -24,27 +26,35 @@ Inovelli does not assume any responsibility for product errors related to the us
 
 Inovelli does not offer support on flashing firmware to the devices listed here and are only provided as a courtesy to our customers and the community.
 
-### Bugs / Enhancements
+### BUGS / ENHANCEMENTS
 If you find a bug and would like to report it, please open a **[Bug Report]** and we will take a look at our earliest convenience. If you would like an enhancement, please open an **[Enhancement Request]** and we will also take a look at our earliest convenience. 
 
 Please note that while enhancements may be requested, it may not always be possible for us to do -- we will try our best, but if it cannot be done, we will explain why.
 
-# Changelog
+***
 
-## V1.22 - 05/10/2021
-### Bug Fixes
+## FIRMWARE CHANGELOG
+
+### V1.22 - 05/10/2021
+#### Bug Fixes
 - Fixed the bug that the V1 version of Protection Set Command would cause RF state of Protection to become enabled. This mostly affected Home Assistant users as it is still using V1 of this command class.
 
-## V1.21 - 08/17/2020 
-### Enhancements
+***
+
+### V1.21 - 08/17/2020 
+#### Enhancements
 - S2 inclusion optimization for 700 series hubs. 
 
-## V1.20 - 07/14/2020
-### Enhancements
+***
+
+### V1.20 - 07/14/2020
+#### Enhancements
 - Change that optimizes Z-Wave exclusion during mass production. Intended for quality testing after assembly. 
 
-## V1.19 - 07/06/2020
-### Enhancements
+***
+
+### V1.19 - 07/06/2020
+#### Enhancements
 
 - Add parameter 51, to enable instant on (ie: disable the 700ms delay). Note, if you disable the delay, it will also disable scene control except for Button 1 (ie: tap up 1x or tap down 1x) and button 7 (config button). All other buttons (2-6) will be disabled.
 <table>
@@ -66,7 +76,9 @@ Please note that while enhancements may be requested, it may not always be possi
 
 - Added the LED color, "White" when parameter 5 is set to 255.
 
-## V1.17 - 05/01/2020
+***
+
+### V1.17 - 05/01/2020
 #### Bug Fixes
 - Fixed: when a device is not on a network, a factory reset by holding down the config button for 25 seconds does not reset the configuration. 
 - Fixed: multiple switches blink green(like they were excluded)when more than one switch is not on a z-ware network and one of those switches is 
@@ -94,8 +106,10 @@ excluded.
 </tr>
 </table>
 
-## V1.16 - 04/16/2020
-### Bug Fixes
+***
+
+### V1.16 - 04/16/2020
+#### Bug Fixes
 - Fixed Energy & power reporting not being disabled when configuration options are set to 0.
 - Fixed Power reports flooding network when bulb power consumption fluctuates frequently. 
 - Fixed state sometimes not being restored properly when local protection is enabled.
