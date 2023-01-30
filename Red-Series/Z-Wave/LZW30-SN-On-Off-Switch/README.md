@@ -11,7 +11,7 @@
 
 SKU: LZW30-SN
 
-Each folder will have the words, "Beta" or "Production" next to the firmware file indicating what type of firmware is in each folder. **Beta firmware may be unstable and should be used at your own risk.** We do our best to test it prior to releasing it, but there may be bugs that we didn't catch. Production firmware is what was put into production and is deemed stable.
+In each product's folder, you'll see all of the production firmware alongside a folder titled, "Beta". All of the production versions are considered stable and used for production, whereas the firmware in the "Beta" has not been fully tested and should be used at your own risk. We do our best to test it prior to releasing it, but there may be bugs that we didn't catch. Production firmware is what was put into production and is deemed stable.
 
 ### DISCLAIMER
 The software is provided "as is" to provide our customers the ability to update our products.
