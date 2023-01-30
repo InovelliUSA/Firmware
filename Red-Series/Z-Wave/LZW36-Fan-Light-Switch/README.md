@@ -25,7 +25,7 @@ Inovelli does not assume any responsibility for product errors related to the us
 Inovelli does not offer support on flashing firmware to the devices listed here and are only provided as a courtesy to our customers and the community.
 
 ### BUGS / ENHANCEMENTS
-If you find a bug and would like to report it, please open a **[Bug Report]** and we will take a look at our earliest convenience. If you would like an enhancement, please open an **[Enhancement Request]** and we will also take a look at our earliest convenience. 
+If you find a bug and would like to report it, please open a **[Bug Report]** and we will take a look at our earliest convenience. If you would like an enhancement, please open an **[Firmware Request]** and we will also take a look at our earliest convenience. 
 
 Please note that while enhancements may be requested, it may not always be possible for us to do -- we will try our best, but if it cannot be done, we will explain why.
 
