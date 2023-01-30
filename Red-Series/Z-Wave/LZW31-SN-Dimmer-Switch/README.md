@@ -1,7 +1,7 @@
 # <b>Inovelli Red Series Dimmer Switch</b>
 *This is the repository for the Inovelli Red Series Dimmer Switch that houses all firmware files along with release notes.*
 
-### About
+### ABOUT
 
 <img
      src = 'https://community.inovelli.com/uploads/default/original/2X/0/0f0a12c8d29b384ac98ee294585b69342662b4c9.png'
@@ -13,7 +13,7 @@ SKU: LZW31-SN
 
 In each product's folder, you'll see all of the production firmware alongside a folder titled, "Beta". All of the production versions are considered stable and used for production, whereas the firmware in the "Beta" has not been fully tested and <b>should be used at your own risk</b>. We do our best to test it prior to releasing it, but there may be bugs that we didn't catch. Production firmware is what was put into production and is deemed stable.
 
-### Disclaimer
+### DISCLAIMER
 The software is provided "as is" to provide our customers the ability to update our products.
 
 Inovelli does not offer any express or implied warranty of any kind when using these files, including, but not limited to, warranties of merchantability, noninfringement, or fitness for a particular purpose. 
@@ -171,4 +171,4 @@ Range: 0-1</br>
 
 [Bug Report]: https://github.com/InovelliUSA/Firmware/issues/new?assignees=&labels=&template=firmware_bug_report.yml&title=%5BBug+Report%5D%3A+PRODUCT+-+FW+VERSION+-+HUB
 [Firmware Request]: https://github.com/InovelliUSA/Firmware/issues/new?assignees=&labels=&template=firmware_request.yml&title=%5BFirmware+Request%5D%3A+PRODUCT+-+SUMMARY
-[Parameter Table]: https://github.com/InovelliUSA/Firmware/blob/main/Red-Series/Z-Wave/LZW30-SN-On-Off-Switch/Parameter-Table.md
+[Parameter Table]: https://github.com/InovelliUSA/Firmware/blob/main/Red-Series/Z-Wave/LZW31-SN-Dimmer-Switch/Parameter-Table.md
