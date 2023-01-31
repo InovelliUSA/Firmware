@@ -38,4 +38,4 @@ For changelogs, please see the [Fan/Light Switch README] file
 
 <!----------------------------------------------------------------------------->
 
-[Fan/Light Switch README]: [https://github.com/InovelliUSA/Firmware/blob/main/Red-Series/Z-Wave/LZW36-Fan-Light-Switch/README.md](https://github.com/InovelliUSA/Firmware/blob/main/Red-Series/Z-Wave/LZW36-Fan-Light-Switch/README.md#firmware-changelog)
+[Fan/Light Switch README]: https://github.com/InovelliUSA/Firmware/blob/main/Red-Series/Z-Wave/LZW36-Fan-Light-Switch/README.md#firmware-changelog
