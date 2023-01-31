@@ -1,5 +1,5 @@
-# Parameters for the Red Series Dimmer Switch - Gen 2
-Please see the below table for the most up-to-date parameter information for your Inovelli Red Series Dimmer Switch (LZW31-SN) - Gen 2. The far right column shows the firmware version each parameter was introduced and if you want that specific parameter, please ensure you have at least the firmware version shown.
+# Parameters for the Red Series Fan/Light Switch
+Please see the below table for the most up-to-date parameter information for your Inovelli Red Series Fan/Light Switch (LZW31-36). The far right column shows the firmware version each parameter was introduced and if you want that specific parameter, please ensure you have at least the firmware version shown.
 
 For changelogs, please see the [Fan/Light Switch README] file
 
