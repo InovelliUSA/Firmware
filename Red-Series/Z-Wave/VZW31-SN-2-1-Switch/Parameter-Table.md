@@ -1,5 +1,5 @@
 ## OVERVIEW
-Please use this document as a resource to understand the various parameters on your switch. We try to keep this up-to-date, but as we constantly change our firmware, there may be a mistake. Please submit a [CORRECTION REPORT] if you see anything that needs to be corrected.
+Please use this document as a resource to understand the various parameters on your switch. We try to keep this up-to-date, but as we constantly change our firmware, there may be a mistake. Please reach out if you see anything that needs to be corrected.
 
 We recommend you look at the firmware version your switch is on and then go directly into the corresponding folder and read the release notes for the most up-to-date information on your specific firmware version.
 
