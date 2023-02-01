@@ -20,6 +20,7 @@ Date in Production: March 2023
 <th>Range</th>
 <th>Default</th>
 <th>Size (Bytes)</th>
+<th>Firmware Version Implemented</th>
 </tr>
 </thead>
 <tbody>
@@ -30,6 +31,7 @@ Date in Production: March 2023
 <td>0-126</td>
 <td>25 <br>(2.5s)</td>
 <td>1</td>
+<td>0.05+</td>
 </tr>
 <tr>
 <td>2</td>
@@ -38,6 +40,7 @@ Date in Production: March 2023
 <td>0-127</td>
 <td>127</td>
 <td>1</td>
+<td>0.05+</td>
 </tr>
 <tr>
 <td>3</td>
@@ -46,6 +49,7 @@ Date in Production: March 2023
 <td>0-127</td>
 <td>127</td>
 <td>1</td>
+<td>0.05+</td>
 </tr>
 <tr>
 <td>4</td>
@@ -54,6 +58,7 @@ Date in Production: March 2023
 <td>0-127</td>
 <td>127</td>
 <td>1</td>
+<td>0.05+</td>
 </tr>
 <tr>
 <td>5</td>
@@ -62,6 +67,7 @@ Date in Production: March 2023
 <td>0-127</td>
 <td>127</td>
 <td>1</td>
+<td>0.05+</td>
 </tr>
 <tr>
 <td>6</td>
@@ -70,6 +76,7 @@ Date in Production: March 2023
 <td>0-127</td>
 <td>127</td>
 <td>1</td>
+<td>0.05+</td>
 </tr>
 <tr>
 <td>7</td>
@@ -78,6 +85,7 @@ Date in Production: March 2023
 <td>0-127</td>
 <td>127</td>
 <td>1</td>
+<td>0.05+</td>
 </tr>
 <tr>
 <td>8</td>
@@ -86,6 +94,7 @@ Date in Production: March 2023
 <td>0-127</td>
 <td>127</td>
 <td>1</td>
+<td>0.05+</td>
 </tr>
 <tr>
 <td>9</td>
@@ -94,6 +103,7 @@ Date in Production: March 2023
 <td>1-254</td>
 <td>1</td>
 <td>1</td>
+<td>0.05+</td>
 </tr>
 <tr>
 <td>10</td>
@@ -102,6 +112,7 @@ Date in Production: March 2023
 <td>2-255</td>
 <td>255</td>
 <td>1</td>
+<td>0.05+</td>
 </tr>
 <tr>
 <td>11</td>
@@ -110,6 +121,7 @@ Date in Production: March 2023
 <td>0-1</td>
 <td>0</td>
 <td>1</td>
+<td>0.05+</td>
 </tr>
 <tr>
 <td>12</td>
@@ -118,6 +130,7 @@ Date in Production: March 2023
 <td>0-32767</td>
 <td>0</td>
 <td>2</td>
+<td>0.05+</td>
 </tr>
 <tr>
 <td>13</td>
@@ -126,6 +139,7 @@ Date in Production: March 2023
 <td>0-255</td>
 <td>255</td>
 <td>1</td>
+<td>0.05+</td>
 </tr>
 <tr>
 <td>14</td>
@@ -134,6 +148,7 @@ Date in Production: March 2023
 <td>0-255</td>
 <td>255</td>
 <td>1</td>
+<td>0.05+</td>
 </tr>
 <tr>
 <td>15</td>
@@ -142,6 +157,7 @@ Date in Production: March 2023
 <td>0-255</td>
 <td>255</td>
 <td>1</td>
+<td>0.05+</td>
 </tr>
 <tr>
 <td>17</td>
@@ -150,6 +166,7 @@ Date in Production: March 2023
 <td>0-11</td>
 <td>11</td>
 <td>1</td>
+<td>0.05+</td>
 </tr>
 <tr>
 <td>18</td>
@@ -158,6 +175,7 @@ Date in Production: March 2023
 <td>0-32767</td>
 <td>10</td>
 <td>2</td>
+<td>0.05+</td>
 </tr>
 <tr>
 <td>19</td>
@@ -166,6 +184,7 @@ Date in Production: March 2023
 <td>0-32767</td>
 <td>3600</td>
 <td>2</td>
+<td>0.05+</td>
 </tr>
 <tr>
 <td>20</td>
@@ -174,6 +193,7 @@ Date in Production: March 2023
 <td>0-32767</td>
 <td>10</td>
 <td>2</td>
+<td>0.05+</td>
 </tr>
 <tr>
 <td>21</td>
@@ -182,6 +202,7 @@ Date in Production: March 2023
 <td>0-1</td>
 <td>1</td>
 <td>1</td>
+<td>0.05+</td>
 </tr>
 <tr>
 <td>22</td>
@@ -190,6 +211,7 @@ Date in Production: March 2023
 <td>0-2</td>
 <td>0</td>
 <td>1</td>
+<td>0.05+</td>
 </tr>
 <tr>
 <td>50</td>
@@ -198,6 +220,7 @@ Date in Production: March 2023
 <td>0-9</td>
 <td>7</td>
 <td>1</td>
+<td>0.05+</td>
 </tr>
 <tr>
 <td>52</td>
@@ -206,6 +229,7 @@ Date in Production: March 2023
 <td>0-1</td>
 <td>0</td>
 <td>1</td>
+<td>0.05+</td>
 </tr>
 <tr>
 <td>95</td>
@@ -214,6 +238,7 @@ Date in Production: March 2023
 <td>0-255</td>
 <td>170 (Blue)</td>
 <td>3</td>
+<td>0.05+</td>
 </tr>
 <tr>
 <td>96</td>
@@ -222,6 +247,7 @@ Date in Production: March 2023
 <td>0-255</td>
 <td>170 (Blue)</td>
 <td>3</td>
+<td>0.05+</td>
 </tr>
 <tr>
 <td>97</td>
@@ -230,6 +256,7 @@ Date in Production: March 2023
 <td>0-100</td>
 <td>33</td>
 <td>1</td>
+<td>0.05+</td>
 </tr>
 <tr>
 <td>98</td>
@@ -238,6 +265,7 @@ Date in Production: March 2023
 <td>0-100</td>
 <td>1</td>
 <td>1</td>
+<td>0.05+</td>
 </tr>
 <tr>
 <td>256</td>
@@ -246,6 +274,7 @@ Date in Production: March 2023
 <td>0-1</td>
 <td>0</td>
 <td>1</td>
+<td>0.05+</td>
 </tr>
 <tr>
 <td>257</td>
@@ -254,6 +283,7 @@ Date in Production: March 2023
 <td>0-1</td>
 <td>0</td>
 <td>1</td>
+<td>0.05+</td>
 </tr>
 <tr>
 <td>258</td>
@@ -262,6 +292,7 @@ Date in Production: March 2023
 <td>0-1</td>
 <td>0</td>
 <td>1</td>
+<td>0.05+</td>
 </tr>
 <tr>
 <td>259</td>
@@ -270,6 +301,7 @@ Date in Production: March 2023
 <td>0-1</td>
 <td>0</td>
 <td>1</td>
+<td>0.05+</td>
 </tr>
 <tr>
 <td>260</td>
@@ -278,6 +310,7 @@ Date in Production: March 2023
 <td>0-1</td>
 <td>1</td>
 <td>1</td>
+<td>0.05+</td>
 </tr>
 <tr>
 <td>261</td>
@@ -286,6 +319,7 @@ Date in Production: March 2023
 <td>0-1</td>
 <td>0</td>
 <td>1</td>
+<td>0.05+</td>
 </tr>
 </tbody>
 </table>
