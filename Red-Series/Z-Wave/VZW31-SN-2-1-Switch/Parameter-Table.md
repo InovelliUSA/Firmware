@@ -6,7 +6,7 @@ We recommend you look at the firmware version your switch is on and then go dire
 ## PARAMETERS
 Below we will describe the various parameters as well as list the most recent firmware parameter numbers, bytes, etc. Again, please double check these against the RELEASE NOTES in each firmware file folder.
 
-### Firmwave Version 0.03
+### Firmwave Version 0.05
 Date in Production: March 2023
 
 **NOTE:** Some parameters are only available in dimmer mode and are called out in the, "About" section with the words, "Dimmer Mode Only".
