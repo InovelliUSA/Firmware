@@ -416,15 +416,6 @@ Date Code: 2304
 <td>1.00+</td>
 </tr>
 <tr>
-<td>125</td>
-<td>Associating Off-to-On Sync Level</td>
-<td>Send Move_To_Level using Default Level with Off/On to associated devices<details><summary><b>More Details</b></summary><br>0 = Disabled<br>1 = Enabled</td>
-<td>0-1</td>
-<td>0</td>
-<td>1</td>
-<td>1.00+</td>
-</tr>
-<tr>
 <td>156</td>
 <td>Local Protection</td>
 <td>Ability to control the switch from the wall (locally)<details><summary><b>More Details</b></summary><br>0 = Local Control Enabled<br>1 = Local Control Disabled</td>
@@ -484,15 +475,6 @@ Date Code: 2304
 <td>Double-Tap the config/favorites button to clear notifications<details><summary><b>More Details</b></summary><br>0 = Enabled<br>1 = Disabled</td>
 <td>0-1</td>
 <td>0</td>
-<td>1</td>
-<td>1.00+</td>
-</tr>
-<tr>
-<td>163</td>
-<td>LED Bar Brightness Levels (in Smart Bulb Mode)</td>
-<td>Brightness level of the LED Bar in smart bulb mode<details><summary><b>More Details</b></summary><br>0 = Full Range<br>1 = Low<br>5 = Medium<br>9 = High</td>
-<td>0-9</td>
-<td>3</td>
 <td>1</td>
 <td>1.00+</td>
 </tr>
