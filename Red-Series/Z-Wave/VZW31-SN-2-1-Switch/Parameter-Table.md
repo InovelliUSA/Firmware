@@ -6,8 +6,9 @@ We recommend you look at the firmware version your switch is on and then go dire
 ## PARAMETERS
 Below we will describe the various parameters as well as list the most recent firmware parameter numbers, bytes, etc. Again, please double check these against the RELEASE NOTES in each firmware file folder.
 
-### Firmwave Version 0.05
-Date in Production: March 2023
+### Firmwave Version 1.00
+Date in Production: April 2023
+Date Code: 2304
 
 **NOTE:** Some parameters are only available in dimmer mode and are called out in the, "About" section with the words, "Dimmer Mode Only".
 
@@ -31,7 +32,7 @@ Date in Production: March 2023
 <td>0-126</td>
 <td>25 <br>(2.5s)</td>
 <td>1</td>
-<td>0.05+</td>
+<td>1.00+</td>
 </tr>
 <tr>
 <td>2</td>
@@ -40,7 +41,7 @@ Date in Production: March 2023
 <td>0-127</td>
 <td>127</td>
 <td>1</td>
-<td>0.05+</td>
+<td>1.00+</td>
 </tr>
 <tr>
 <td>3</td>
@@ -49,7 +50,7 @@ Date in Production: March 2023
 <td>0-127</td>
 <td>127</td>
 <td>1</td>
-<td>0.05+</td>
+<td>1.00+</td>
 </tr>
 <tr>
 <td>4</td>
@@ -58,7 +59,7 @@ Date in Production: March 2023
 <td>0-127</td>
 <td>127</td>
 <td>1</td>
-<td>0.05+</td>
+<td>1.00+</td>
 </tr>
 <tr>
 <td>5</td>
@@ -67,7 +68,7 @@ Date in Production: March 2023
 <td>0-127</td>
 <td>127</td>
 <td>1</td>
-<td>0.05+</td>
+<td>1.00+</td>
 </tr>
 <tr>
 <td>6</td>
@@ -76,7 +77,7 @@ Date in Production: March 2023
 <td>0-127</td>
 <td>127</td>
 <td>1</td>
-<td>0.05+</td>
+<td>1.00+</td>
 </tr>
 <tr>
 <td>7</td>
@@ -85,7 +86,7 @@ Date in Production: March 2023
 <td>0-127</td>
 <td>127</td>
 <td>1</td>
-<td>0.05+</td>
+<td>1.00+</td>
 </tr>
 <tr>
 <td>8</td>
@@ -94,25 +95,25 @@ Date in Production: March 2023
 <td>0-127</td>
 <td>127</td>
 <td>1</td>
-<td>0.05+</td>
+<td>1.00+</td>
 </tr>
 <tr>
 <td>9</td>
 <td>Minimum Dim Level<br><br><b>Dimmer Mode Only</b></td>
-<td>Minimum level the light switch will dim to<details><summary><b>More Details</b></summary><br>Lower the numeric value = lower the min dim level (1 = ~1%)<br><br>Higher the numeric value = higher the min dim level (254 = ~99%)<br><br>Great for fixing flickering bulbs or calibrating the bulb if it shuts off prior to 1%<br><br><b>HUB NOTE:</b> Some hub user interfaces may show a range of 1-99 as available inputs. This is because it&#39;s easier to think in terms of 0-100% instead of calculating what number out of 255 is equal to x%.</td>
-<td>1-254</td>
+<td>Minimum level the light switch will dim to<details><summary><b>More Details</b></summary><br>Lower the numeric value = lower the min dim level (1 = ~1%)<br><br>Higher the numeric value = higher the min dim level (99 = 99%)<br><br>Great for fixing flickering bulbs or calibrating the bulb if it shuts off prior to 1%</td>
+<td>1-99</td>
 <td>1</td>
 <td>1</td>
-<td>0.05+</td>
+<td>1.00+</td>
 </tr>
 <tr>
 <td>10</td>
 <td>Maximum Dim Level<br><br><b>Dimmer Mode Only</b></td>
-<td>Maximum level the light switch will dim to<details><summary><b>More Details</b></summary><br>Lower the numeric value = lower the max dim level (2 = ~2%)<br><br>Higher the numeric value = higher the max dim level (255 = ~100%)<br><br><b>NOTE:</b> Great for calibrating a bulb when it reaches maximum level before 100%<br><br><b>HUB NOTE:</b> Some hub user interfaces may show a range of 2-100 as available inputs. This is because it&#39;s easier to think in terms of 0-100% instead of calculating what number out of 255 is equal to x%.</td>
-<td>2-255</td>
-<td>255</td>
+<td>Maximum level the light switch will dim to<details><summary><b>More Details</b></summary><br>Lower the numeric value = lower the max dim level (2 = ~2%)<br><br>Higher the numeric value = higher the max dim level (100 = 100%)<br><br><b>NOTE:</b> Great for calibrating a bulb when it reaches maximum level before 100%</td>
+<td>2-100</td>
+<td>100</td>
 <td>1</td>
-<td>0.05+</td>
+<td>1.00+</td>
 </tr>
 <tr>
 <td>11</td>
@@ -121,7 +122,7 @@ Date in Production: March 2023
 <td>0-1</td>
 <td>0</td>
 <td>1</td>
-<td>0.05+</td>
+<td>1.00+</td>
 </tr>
 <tr>
 <td>12</td>
@@ -130,34 +131,34 @@ Date in Production: March 2023
 <td>0-32767</td>
 <td>0</td>
 <td>2</td>
-<td>0.05+</td>
+<td>1.00+</td>
 </tr>
 <tr>
 <td>13</td>
 <td>Default Level - Local<br><br><b>Dimmer Mode Only</b></td>
-<td>The default dim level the switch goes to when turned on locally (at the switch)<details><summary><b>More Details</b></summary><br>0 = Off<br>1-254 = Specific level on<br>255 = Returns to prior state it was before being turned off<br><br><b>HUB NOTE:</b> Some hub user interfaces may show a range of 1-100 as available inputs. This is because it&#39;s easier to think in terms of 0-100% instead of calculating what number out of 255 is equal to x%.</td>
-<td>0-255</td>
-<td>255</td>
+<td>The default dim level the switch goes to when turned on locally (at the switch)<details><summary><b>More Details</b></summary><br>0 = Off<br>1-100 = Specific level on<br>101 = Returns to prior state it was before being turned off</td>
+<td>0-101</td>
+<td>101</td>
 <td>1</td>
-<td>0.05+</td>
+<td>1.00+</td>
 </tr>
 <tr>
 <td>14</td>
 <td>Default Level - Remote<br><br><b>Dimmer Mode Only</b></td>
-<td>The default dim level the switch goes to when powered on via a remote command<details><summary><b>More Details</b></summary><br>0 = Off<br>1-254 = Specific level on<br>255 = Returns to prior state it was before being turned off<br><br><b>HUB NOTE:</b> Some hub user interfaces may show a range of 1-100 as available inputs. This is because it&#39;s easier to think in terms of 0-100% instead of calculating what number out of 255 is equal to x%.</td>
-<td>0-255</td>
-<td>255</td>
+<td>The default dim level the switch goes to when powered on via a remote command<details><summary><b>More Details</b></summary><br>0 = Off<br>1-100 = Specific level on<br>101 = Returns to prior state it was before being turned off</td>
+<td>0-101</td>
+<td>101</td>
 <td>1</td>
-<td>0.05+</td>
+<td>1.00+</td>
 </tr>
 <tr>
 <td>15</td>
 <td>Level After Power Restored</td>
-<td>When power is restored, the switch reverts to either On, Off, or Last Level<details><summary><b>More Details</b></summary><br>0 = Off<br>1-254 = Specific level on<br>255 = Returns to level before power outage</td>
-<td>0-255</td>
-<td>255</td>
+<td>When power is restored, the switch reverts to either On, Off, or Last Level<details><summary><b>More Details</b></summary><br>0 = Off<br>1-100 = Specific level on<br>101 = Returns to level before power outage</td>
+<td>0-101</td>
+<td>101</td>
 <td>1</td>
-<td>0.05+</td>
+<td>1.00+</td>
 </tr>
 <tr>
 <td>17</td>
@@ -166,7 +167,7 @@ Date in Production: March 2023
 <td>0-11</td>
 <td>11</td>
 <td>1</td>
-<td>0.05+</td>
+<td>1.00+</td>
 </tr>
 <tr>
 <td>18</td>
@@ -175,7 +176,7 @@ Date in Production: March 2023
 <td>0-32767</td>
 <td>10</td>
 <td>2</td>
-<td>0.05+</td>
+<td>1.00+</td>
 </tr>
 <tr>
 <td>19</td>
@@ -184,7 +185,7 @@ Date in Production: March 2023
 <td>0-32767</td>
 <td>3600</td>
 <td>2</td>
-<td>0.05+</td>
+<td>1.00+</td>
 </tr>
 <tr>
 <td>20</td>
@@ -193,7 +194,7 @@ Date in Production: March 2023
 <td>0-32767</td>
 <td>10</td>
 <td>2</td>
-<td>0.05+</td>
+<td>1.00+</td>
 </tr>
 <tr>
 <td>21</td>
@@ -202,25 +203,34 @@ Date in Production: March 2023
 <td>0-1</td>
 <td>1</td>
 <td>1</td>
-<td>0.05+</td>
+<td>1.00+</td>
 </tr>
 <tr>
 <td>22</td>
-<td>Switch Type</td>
-<td>Select what type of installation you have<details><summary><b>More Details</b></summary><br>0 = Single-Pole (ie: one switch)<br>1 = Multi-Way (Dumb Switch)<br>2 = Multi-Way (Auxiliary Switch)</td>
-<td>0-2</td>
+<td>Aux Switch Type & Full Sine Mode</td>
+<td>Select the Aux Switch type as well as Full Sine Mode<details><summary><b>More Details</b></summary><br>0 = None<br>1 = 3-Way Dumb Switch<br>2 = 3-Way Aux Switch<br>3 = Single Pole Full Sine Wave</td>
+<td>0-3</td>
 <td>0</td>
 <td>1</td>
-<td>0.05+</td>
+<td>1.00+</td>
+</tr>
+<tr>
+<td>25</td>
+<td>Higher Output in Non-Neutral</td>
+<td>Ability to increase level in non-neutral mode but may cause problems with high level ficker or aux switch detection. Adjust max level (P10) if you have problems with this enabled.<details><summary><b>More Details</b></summary><br>0 = Disabled <br>1 = Enabled</td>
+<td>0-1</td>
+<td>0</td>
+<td>1</td>
+<td>1.00+</td>
 </tr>
 <tr>
 <td>50</td>
-<td>Switch Delay</td>
-<td>Adjusts the delay between taps in 100ms increments<br>0 = 0ms (disables multi-tap scene control), 1 = 100ms, 2 = 200ms, 9 = 900ms)</td>
+<td>Button Press Delay</td>
+<td>Adjusts the delay between button taps in 100ms increments<br>0 = 0ms / No Delay (disables multi-tap scene control), 1 = 100ms, 2 = 200ms, 9 = 900ms)</td>
 <td>0-9</td>
-<td>7</td>
+<td>5</td>
 <td>1</td>
-<td>0.05+</td>
+<td>1.00+</td>
 </tr>
 <tr>
 <td>52</td>
@@ -229,25 +239,136 @@ Date in Production: March 2023
 <td>0-1</td>
 <td>0</td>
 <td>1</td>
-<td>0.05+</td>
+<td>1.00+</td>
+</tr>
+<tr>
+<td>53</td>
+<td>Double-Tap Up to Parameter 55<br/><br/><b/>Dimmer Mode Only</td>
+<td>Enable or Disable setting brightness to parameter 55 on double-tap up.<details><summary><b>More Details</b></summary><br>0 = Disabled<br>1 = Enabled</td>
+<td>0-1</td>
+<td>0</td>
+<td>1</td>
+<td>1.00+</td>
+</tr>
+<tr>
+<td>54</td>
+<td>Double-Tap Down to Parameter 56<br/><br/><b/>Dimmer Mode Only</td>
+<td>Enable or Disable setting brightness to parameter 56 on double-tap down.<details><summary><b>More Details</b></summary><br>0 = Disabled<br>1 = Enabled</td>
+<td>0-1</td>
+<td>0</td>
+<td>1</td>
+<td>1.00+</td>
+</tr>
+<tr>
+<td>55</td>
+<td>Brightness Level for Double-Tap Up<br/><br/><b/>Dimmer Mode Only</td>
+<td>Set this level on double-tap up (if enabled by P53)<details><summary><b>More Details</b></summary><br>1 = 1%<br>2 = 2%<br>99 = 99%</td>
+<td>1-99</td>
+<td>99</td>
+<td>1</td>
+<td>1.00+</td>
+</tr>
+<tr>
+<td>56</td>
+<td>Brightness Level for Double-Tap Down<br/><br/><b/>Dimmer Mode Only</td>
+<td>Set this level on double-tap down (if enabled by P54)<details><summary><b>More Details</b></summary><br>1 = 1%<br>2 = 2%<br>99 = 99%</td>
+<td>1-99</td>
+<td>1</td>
+<td>1</td>
+<td>1.00+</td>
+</tr>
+<tr>
+<td>58</td>
+<td>Exclusion Behavior</td>
+<td>How the device behaves during exclusion<details><summary><b>More Details</b></summary><br>0 = LED Bar Does Not Pulse (when config tapped 3x)<br>1 = LED Bar pulses blue<br>2 = Device does not enter exclusion mode (requires factory reset to leave network or change this parameter)</td>
+<td>0-2</td>
+<td>1</td>
+<td>1</td>
+<td>1.00+</td>
+</tr>
+<tr>
+<td>59</td>
+<td>Association Behavior</td>
+<td>Choose when the switch sends commands to associated devices<details><summary><b>More Details</b></summary><br>0 = Never<br>1 = Local<br>2 = Z-Wave<br>3 = Both</td>
+<td>0-3</td>
+<td>1</td>
+<td>1</td>
+<td>1.00+</td>
+</tr>
+<tr>
+<td>64</td>
+<td>LED #1 Notification</td>
+<td>A 4-Byte encoded LED Notification for LED #1 (bottom LED)<details><summary><b>More Details</b></summary><br>To see an example, please go to the following URL: https://inovelliusa.github.io/inovelli-switch-toolbox/ and select, "VZW31-SN" under the "Switch Type" dropdown. Then select, "1" under where it says, "LED" and then play with the values (Color, Brightness, Duration, etc).</td>
+<td>0-4294967295</td>
+<td>0</td>
+<td>4</td>
+<td>1.00+</td>
+</tr>
+<td>69</td>
+<td>LED #2 Notification</td>
+<td>A 4-Byte encoded LED Notification for LED #2 (second from the bottom LED)<details><summary><b>More Details</b></summary><br>To see an example, please go to the following URL: https://inovelliusa.github.io/inovelli-switch-toolbox/ and select, "VZW31-SN" under the "Switch Type" dropdown. Then select, "2" under where it says, "LED" and then play with the values (Color, Brightness, Duration, etc).</td>
+<td>0-4294967295</td>
+<td>0</td>
+<td>4</td>
+<td>1.00+</td>
+</tr>
+<td>74</td>
+<td>LED #3 Notification</td>
+<td>A 4-Byte encoded LED Notification for LED #3 (third from the bottom LED)<details><summary><b>More Details</b></summary><br>To see an example, please go to the following URL: https://inovelliusa.github.io/inovelli-switch-toolbox/ and select, "VZW31-SN" under the "Switch Type" dropdown. Then select, "3" under where it says, "LED" and then play with the values (Color, Brightness, Duration, etc).</td>
+<td>0-4294967295</td>
+<td>0</td>
+<td>4</td>
+<td>1.00+</td>
+</tr>
+<td>79</td>
+<td>LED #4 Notification</td>
+<td>A 4-Byte encoded LED Notification for LED #4 (middle LED)<details><summary><b>More Details</b></summary><br>To see an example, please go to the following URL: https://inovelliusa.github.io/inovelli-switch-toolbox/ and select, "VZW31-SN" under the "Switch Type" dropdown. Then select, "4" under where it says, "LED" and then play with the values (Color, Brightness, Duration, etc).</td>
+<td>0-4294967295</td>
+<td>0</td>
+<td>4</td>
+<td>1.00+</td>
+</tr>
+<td>84</td>
+<td>LED #5 Notification</td>
+<td>A 4-Byte encoded LED Notification for LED #5 (third from the top LED)<details><summary><b>More Details</b></summary><br>To see an example, please go to the following URL: https://inovelliusa.github.io/inovelli-switch-toolbox/ and select, "VZW31-SN" under the "Switch Type" dropdown. Then select, "5" under where it says, "LED" and then play with the values (Color, Brightness, Duration, etc).</td>
+<td>0-4294967295</td>
+<td>0</td>
+<td>4</td>
+<td>1.00+</td>
+</tr>
+<td>89</td>
+<td>LED #6 Notification</td>
+<td>A 4-Byte encoded LED Notification for LED #6 (second from the top LED)<details><summary><b>More Details</b></summary><br>To see an example, please go to the following URL: https://inovelliusa.github.io/inovelli-switch-toolbox/ and select, "VZW31-SN" under the "Switch Type" dropdown. Then select, "6" under where it says, "LED" and then play with the values (Color, Brightness, Duration, etc).</td>
+<td>0-4294967295</td>
+<td>0</td>
+<td>4</td>
+<td>1.00+</td>
+</tr>
+<td>94</td>
+<td>LED #7 Notification</td>
+<td>A 4-Byte encoded LED Notification for LED #7 (top LED)<details><summary><b>More Details</b></summary><br>To see an example, please go to the following URL: https://inovelliusa.github.io/inovelli-switch-toolbox/ and select, "VZW31-SN" under the "Switch Type" dropdown. Then select, "7" under where it says, "LED" and then play with the values (Color, Brightness, Duration, etc).</td>
+<td>0-4294967295</td>
+<td>0</td>
+<td>4</td>
+<td>1.00+</td>
 </tr>
 <tr>
 <td>95</td>
 <td>LED Indicator Color (When On) - LED #&#39;s 1-7</td>
-<td>This will set the default color of the LED Bar (all 7 LED&#39;s) when the switch is on<details><summary><b>More Details</b></summary><br>Calculated by using a hue color circle (Value / 255 * 360). See website for more info.</td>
+<td>This will set the default color of the LED Bar (all 7 LED&#39;s) when the switch is on<details><summary><b>More Details</b></summary><br>0 = Red<br>14 = Orange<br>35 = Lemon<br>64 = Lime<br>85 = Green<br>106 = Teal<br>127 = Cyan<br>149 = Aqua<br>170 = Blue<br>191 = Violet<br>212 = Magenta<br>234 = Pink<br>255 = White</td>
 <td>0-255</td>
 <td>170 (Blue)</td>
-<td>3</td>
-<td>0.05+</td>
+<td>1</td>
+<td>1.00+</td>
 </tr>
 <tr>
 <td>96</td>
 <td>LED Indicator Color (When Off) - LED #&#39;s 1-7</td>
-<td>This will set the default color of the LED Bar (all 7 LED&#39;s) when the switch is off<details><summary><b>More Details</b></summary><br>Calculated by using a hue color circle (Value / 255 * 360). See website for more info.</td>
+<td>This will set the default color of the LED Bar (all 7 LED&#39;s) when the switch is off<details><summary><b>More Details</b></summary><br>0 = Red<br>14 = Orange<br>35 = Lemon<br>64 = Lime<br>85 = Green<br>106 = Teal<br>127 = Cyan<br>149 = Aqua<br>170 = Blue<br>191 = Violet<br>212 = Magenta<br>234 = Pink<br>255 = White</td>
 <td>0-255</td>
 <td>170 (Blue)</td>
-<td>3</td>
-<td>0.05+</td>
+<td>1</td>
+<td>1.00+</td>
 </tr>
 <tr>
 <td>97</td>
@@ -256,7 +377,7 @@ Date in Production: March 2023
 <td>0-100</td>
 <td>33</td>
 <td>1</td>
-<td>0.05+</td>
+<td>1.00+</td>
 </tr>
 <tr>
 <td>98</td>
@@ -265,61 +386,115 @@ Date in Production: March 2023
 <td>0-100</td>
 <td>1</td>
 <td>1</td>
-<td>0.05+</td>
+<td>1.00+</td>
 </tr>
 <tr>
-<td>256</td>
+<td>99</td>
+<td>All LED Notification</td>
+<td>A 4-Byte encoded LED Notification for LED's 1-7 (all LED's)<details><summary><b>More Details</b></summary><br>To see an example, please go to the following URL: https://inovelliusa.github.io/inovelli-switch-toolbox/ and select, "VZW31-SN" under the "Switch Type" dropdown. Then select, "All" under where it says, "LED" and then play with the values (Color, Brightness, Duration, etc).</td>
+<td>0-4294967295</td>
+<td>0</td>
+<td>4</td>
+<td>1.00+</td>
+</tr>
+<tr>
+<td>100</td>
+<td>LED Bar Scaling<br/><br/><b/>Dimmer Mode Only</td>
+<td>Method used for LED Bar scaling.  This allows you to match the scaling when two different generations are in the same gang box (ie: Gen 2 LZW31, LZW31-SN vs Gen 3 VZW31-SN)<details><summary><b>More Details</b></summary><br>0 = Gen 3 (VZW)<br>1 = Gen 2 (LZW)</td>
+<td>0-1</td>
+<td>0</td>
+<td>1</td>
+<td>1.00+</td>
+</tr>
+<tr>
+<td>123</td>
+<td>Aux Switch Unique Scenes</td>
+<td>Have unique scene numbers for scenes activated with the aux switch. In other words, you can activate Scene A (multi-tap) from the smart switch and activate Scene B (multi-tap) from the auxiliary switch with the same number of multi-taps.<details><summary><b>More Details</b></summary><br>0 = Disabled<br>1 = Enabled</td>
+<td>0-1</td>
+<td>0</td>
+<td>1</td>
+<td>1.00+</td>
+</tr>
+<tr>
+<td>125</td>
+<td>Associating Off-to-On Sync Level</td>
+<td>Send Move_To_Level using Default Level with Off/On to associated devices<details><summary><b>More Details</b></summary><br>0 = Disabled<br>1 = Enabled</td>
+<td>0-1</td>
+<td>0</td>
+<td>1</td>
+<td>1.00+</td>
+</tr>
+<tr>
+<td>156</td>
 <td>Local Protection</td>
-<td>Determines whether or not the load of the switch can be controlled via paddle presses (locally)<details><summary><b>More Details</b></summary><br>0 = Disabled<br>1 = Enabled</td>
+<td>Ability to control the switch from the wall (locally)<details><summary><b>More Details</b></summary><br>0 = Local Control Enabled<br>1 = Local Control Disabled</td>
 <td>0-1</td>
 <td>0</td>
 <td>1</td>
-<td>0.05+</td>
+<td>1.00+</td>
 </tr>
 <tr>
-<td>257</td>
-<td>Remote Protection</td>
-<td>Determines whether or not the load of the switch can be controlled via RF (remote)<details><summary><b>More Details</b></summary><br>0 = Disabled<br>1 = Enabled</td>
+<td>157</td>
+<td>Remote Protection (Read Only)</td>
+<td>Ability to control the switch from the hub (remotely)<details><summary><b>More Details</b></summary><br>0 = Remote Control Enabled<br>1 = Remote Control Disabled</td>
 <td>0-1</td>
 <td>0</td>
 <td>1</td>
-<td>0.05+</td>
+<td>1.00+</td>
 </tr>
 <tr>
-<td>258</td>
-<td>Switch Mode (Dimmer or On/Off)</td>
-<td>Determines the mode of the switch (On/Off or Dimmer)<details><summary><b>More Details</b></summary><br>0 = On/Off<br>1 = Dimmer</td>
+<td>158</td>
+<td>Switch Type</td>
+<td>Select what type of installation you have<details><summary><b>More Details</b></summary><br>0 = Single-Pole (ie: one switch)<br>1 = Multi-Way (Dumb Switch)<br>2 = Multi-Way (Auxiliary Switch)</td>
+<td>0-2</td>
+<td>0</td>
+<td>1</td>
+<td>1.00+</td>
+</tr>
+<tr>
+<td>159</td>
+<td>LED Bar in On/Off Switch Mode<br/><br/><b/>On/Off Mode Only</td>
+<td>When the device in in On/Off Mode, use the Full LED Bar or just one LED<details><summary><b>More Details</b></summary><br>0 = Full Bar<br>1 = One LED</td>
 <td>0-1</td>
 <td>0</td>
 <td>1</td>
-<td>0.05+</td>
+<td>1.00+</td>
 </tr>
 <tr>
-<td>259</td>
-<td>One LED Mode</td>
-<td>Switch only shows LED #1 and does not show LED #&#39;s 2-6 -- this mimics the Red Series On/Off switch<details><summary><b>More Details</b></summary><br>0 = Disabled<br>1 = Enabled</td>
+<td>160</td>
+<td>Firmware Update-in-Progress Bar</td>
+<td>Display the firmware update progress on the LED Bar<details><summary><b>More Details</b></summary><br>0 = Disabled<br>1 = Enabled</td>
+<td>0-1</td>
+<td>1</td>
+<td>1</td>
+<td>1.00+</td>
+</tr>
+<tr>
+<td>161</td>
+<td>Relay Click</td>
+<td>Audible click in On/Off Mode<details><summary><b>More Details</b></summary><br>0 = Enabled<br>1 = Disabled</td>
+<td>0-1</td>
+<td>1</td>
+<td>1</td>
+<td>1.00+</td>
+</tr>
+<tr>
+<td>162</td>
+<td>Double-Tap Config/Favorites Button to Clear Notification</td>
+<td>Double-Tap the config/favorites button to clear notifications<details><summary><b>More Details</b></summary><br>0 = Enabled<br>1 = Disabled</td>
 <td>0-1</td>
 <td>0</td>
 <td>1</td>
-<td>0.05+</td>
+<td>1.00+</td>
 </tr>
 <tr>
-<td>260</td>
-<td>Firmware Progress LED</td>
-<td>During a firmware update, the switch will show the progress on the LED Bar<details><summary><b>More Details</b></summary><br>EXAMPLE: 1/4 LED Bar shown = 25%, 1/2 LED Bar shown = 50%, 3/4 LED Bar shown = 75%<br><br>0 = Disable, 1 = Enable</td>
-<td>0-1</td>
+<td>163</td>
+<td>LED Bar Brightness Levels (in Smart Bulb Mode)</td>
+<td>Brightness level of the LED Bar in smart bulb mode<details><summary><b>More Details</b></summary><br>0 = Full Range<br>1 = Low<br>5 = Medium<br>9 = High</td>
+<td>0-9</td>
+<td>3</td>
 <td>1</td>
-<td>1</td>
-<td>0.05+</td>
-</tr>
-<tr>
-<td>261</td>
-<td>Disable Relay, &quot;Click&quot; Sound</td>
-<td>In neutral on/off setups, the default is to have a clicking sound to notify you that the relay is open or closed. You may disable this sound by creating a, &quot;simulated&quot; on/off where the switch only will turn onto 100 or off to 0.<details><summary><b>More Details</b></summary><br>0 = Disabled (Click Sound On)<br>1 = Enabled (Click Sound Off</td>
-<td>0-1</td>
-<td>0</td>
-<td>1</td>
-<td>0.05+</td>
+<td>1.00+</td>
 </tr>
 </tbody>
 </table>
