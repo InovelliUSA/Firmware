@@ -8,7 +8,7 @@ Below we will describe the various parameters as well as list the most recent fi
 
 ### Firmwave Version 1.00
 Date in Production: April 2023
-Date Code: 2304
+<br>Date Code: 2304
 
 **NOTE:** Some parameters are only available in dimmer mode and are called out in the, "About" section with the words, "Dimmer Mode Only".
 
