@@ -138,7 +138,7 @@ Date in Production: April 2023
 <td>Default Level - Local<br><br><b>Dimmer Mode Only</b></td>
 <td>The default dim level the switch goes to when turned on locally (at the switch)<details><summary><b>More Details</b></summary><br>1-99 = Specific level on<br>0 = Returns to prior state it was before being turned off</td>
 <td>0-99</td>
-<td>99</td>
+<td>0</td>
 <td>1</td>
 <td>1.00+</td>
 </tr>
@@ -147,7 +147,7 @@ Date in Production: April 2023
 <td>Default Level - Remote<br><br><b>Dimmer Mode Only</b></td>
 <td>The default dim level the switch goes to when powered on via a remote command<details><summary><b>More Details</b></summary><br>1-99 = Specific level on<br>0 = Returns to prior state it was before being turned off</td>
 <td>0-99</td>
-<td>99</td>
+<td>0</td>
 <td>1</td>
 <td>1.00+</td>
 </tr>
@@ -271,8 +271,8 @@ Date in Production: April 2023
 <tr>
 <td>56</td>
 <td>Brightness Level for Double-Tap Down<br/><br/><b/>Dimmer Mode Only</td>
-<td>Set this level on double-tap down (if enabled by P54)<details><summary><b>More Details</b></summary><br>1 = 1%<br>2 = 2%<br>99 = 99%</td>
-<td>1-99</td>
+<td>Set this level on double-tap down (if enabled by P54)<details><summary><b>More Details</b></summary><br>0 = off<br>1 = 1%<br>2 = 2%<br>99 = 99%</td>
+<td>0-99</td>
 <td>1</td>
 <td>1</td>
 <td>1.00+</td>
@@ -410,24 +410,6 @@ Date in Production: April 2023
 <td>123</td>
 <td>Aux Switch Unique Scenes</td>
 <td>Have unique scene numbers for scenes activated with the aux switch. In other words, you can activate Scene A (multi-tap) from the smart switch and activate Scene B (multi-tap) from the auxiliary switch with the same number of multi-taps.<details><summary><b>More Details</b></summary><br>0 = Disabled<br>1 = Enabled</td>
-<td>0-1</td>
-<td>0</td>
-<td>1</td>
-<td>1.00+</td>
-</tr>
-<tr>
-<td>156</td>
-<td>Local Protection</td>
-<td>Ability to control the switch from the wall (locally)<details><summary><b>More Details</b></summary><br>0 = Local Control Enabled<br>1 = Local Control Disabled</td>
-<td>0-1</td>
-<td>0</td>
-<td>1</td>
-<td>1.00+</td>
-</tr>
-<tr>
-<td>157</td>
-<td>Remote Protection (Read Only)</td>
-<td>Ability to control the switch from the hub (remotely)<details><summary><b>More Details</b></summary><br>0 = Remote Control Enabled<br>1 = Remote Control Disabled</td>
 <td>0-1</td>
 <td>0</td>
 <td>1</td>
