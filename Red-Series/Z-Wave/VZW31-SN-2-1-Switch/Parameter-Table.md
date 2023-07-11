@@ -29,7 +29,7 @@ Date in Production: April 2023
 <td>1</td>
 <td>Dimming Speed (↑) - Remote<br/><br/><b/>Dimmer Mode Only</td>
 <td>How fast or slow the light turns on when you change the dim level remotely (ie: dimming from 10-20%, 60-80%, etc)<br><details><summary><b>More Details</b></summary><br>0 = Instant On<br>5 = Fast (500ms)<br>126 = Slow (12.6s)<br><br><b>IF USING A DUMB SWITCH:</b> This parameter will not work when pressing the dumb switch manually.<br><b>NOTE:</b> Third party code may need to be implemented (device handler, driver, etc) for this to work properly. Some hubs may not support this feature.</details></td>
-<td>0-126</td>
+<td>0-254</td>
 <td>25 <br>(2.5s)</td>
 <td>1</td>
 <td>1.00+</td>
@@ -37,27 +37,27 @@ Date in Production: April 2023
 <tr>
 <td>2</td>
 <td>Dimming Speed (↑) - Local<br><br><b>Dimmer Mode Only</b></td>
-<td>How fast or slow the light the light turns on when you hold up on the switch (ie: dimming from 10-20%, 60-80%, etc)<details><summary><b>More Details</b></summary><br>0 = Instant On<br>5 = Fast (500ms)<br>126 = Slow (12.6s)<br>127 = Sync to Parameter 1<br><br><b>IF USING A DUMB SWITCH:</b> This parameter will not work when pressing the dumb switch manually.</details></td>
-<td>0-127</td>
-<td>127</td>
+<td>How fast or slow the light the light turns on when you hold up on the switch (ie: dimming from 10-20%, 60-80%, etc)<details><summary><b>More Details</b></summary><br>0 = Instant On<br>5 = Fast (500ms)<br>126 = Slow (12.6s)<br>255 = Sync to Parameter 1<br><br><b>IF USING A DUMB SWITCH:</b> This parameter will not work when pressing the dumb switch manually.</details></td>
+<td>0-255</td>
+<td>255</td>
 <td>1</td>
 <td>1.00+</td>
 </tr>
 <tr>
 <td>3</td>
 <td>Ramp Rate (Off → On) - Remote<br><br><b>Dimmer Mode Only</b></td>
-<td>How fast or slow the light turns on when you remotely bring the switch from Off to On<details><summary><b>More Details</b></summary><br>0 = Instant On<br>5 = Fast (500ms)<br>126 = Slow (12.6s)<br>127 = Sync to Parameter 1<br><br><b>NOTE:</b> Third party code may need to be implemented (device handler, driver, etc) for this to work properly. Some hubs may not support this feature.</td>
-<td>0-127</td>
-<td>127</td>
+<td>How fast or slow the light turns on when you remotely bring the switch from Off to On<details><summary><b>More Details</b></summary><br>0 = Instant On<br>5 = Fast (500ms)<br>126 = Slow (12.6s)<br>255 = Sync to Parameter 1<br><br><b>NOTE:</b> Third party code may need to be implemented (device handler, driver, etc) for this to work properly. Some hubs may not support this feature.</td>
+<td>0-255</td>
+<td>255</td>
 <td>1</td>
 <td>1.00+</td>
 </tr>
 <tr>
 <td>4</td>
 <td>Ramp Rate (Off → On) - Local<br><br><b>Dimmer Mode Only</b></td>
-<td>How fast or slow the light turns on when you press the switch up 1x to bring from Off to On<details><summary><b>More Details</b></summary><br>0 = Instant On<br>5 = Fast (500ms)<br>126 = Slow (12.6s)<br>127 = Sync to Parameter 3</td>
-<td>0-127</td>
-<td>127</td>
+<td>How fast or slow the light turns on when you press the switch up 1x to bring from Off to On<details><summary><b>More Details</b></summary><br>0 = Instant On<br>5 = Fast (500ms)<br>126 = Slow (12.6s)<br>255 = Sync to Parameter 3</td>
+<td>0-255</td>
+<td>255</td>
 <td>1</td>
 <td>1.00+</td>
 </tr>
@@ -65,8 +65,8 @@ Date in Production: April 2023
 <td>5</td>
 <td>Dimming Speed (↓) - Remote<br><br><b>Dimmer Mode Only</b></td>
 <td>How fast or slow the light turns off when you change the dim level remotely (ie: dimming from 80-60%, 20-10%, etc)<details><summary><b>More Details</b></summary><br>0 = Instant Off<br>5 = Fast (500ms)<br>126 = Slow (12.6s)<br>127 = Sync to Parameter 1<br><br><b>IF USING A DUMB SWITCH:</b> This parameter will not work when pressing the dumb switch manually.<br><b>NOTE:</b> Third party code may need to be implemented (device handler, driver, etc) for this to work properly. Some hubs may not support this feature.</td>
-<td>0-127</td>
-<td>127</td>
+<td>0-255</td>
+<td>255</td>
 <td>1</td>
 <td>1.00+</td>
 </tr>
@@ -74,34 +74,34 @@ Date in Production: April 2023
 <td>6</td>
 <td>Dimming Speed (↓) - Local<br><br><b>Dimmer Mode Only</b></td>
 <td>How fast or slow the light the light turns off when you hold down on the switch (ie: dimming from 80-60%, 20-10%, etc)<details><summary><b>More Details</b></summary><br>0 = Instant Off<br>5 = Fast (500ms)<br>126 = Slow (12.6s)<br>127 = Sync to Parameter 2<br><br><b>IF USING A DUMB SWITCH:</b> This parameter will not work when pressing the dumb switch manually.</td>
-<td>0-127</td>
-<td>127</td>
+<td>0-255</td>
+<td>255</td>
 <td>1</td>
 <td>1.00+</td>
 </tr>
 <tr>
 <td>7</td>
 <td>Ramp Rate (On → Off) - Remote<br><br><b>Dimmer Mode Only</b></td>
-<td>How fast or slow the light turns on when you remotely bring the switch from Off to On<details><summary><b>More Details</b></summary><br>0 = Instant Off<br>5 = Fast (500ms)<br>126 = Slow (12.6s)<br>127 = Sync to Parameter 3<br><b>NOTE:</b> Third party code may need to be implemented (device handler, driver, etc) for this to work properly. Some hubs may not support this feature.</td>
-<td>0-127</td>
-<td>127</td>
+<td>How fast or slow the light turns on when you remotely bring the switch from Off to On<details><summary><b>More Details</b></summary><br>0 = Instant Off<br>5 = Fast (500ms)<br>126 = Slow (12.6s)<br>255 = Sync to Parameter 3<br><b>NOTE:</b> Third party code may need to be implemented (device handler, driver, etc) for this to work properly. Some hubs may not support this feature.</td>
+<td>0-255</td>
+<td>255</td>
 <td>1</td>
 <td>1.00+</td>
 </tr>
 <tr>
 <td>8</td>
 <td>Ramp Rate (On → Off) - Local<br><br><b>Dimmer Mode Only</b></td>
-<td>How fast or slow the light turns on when you press the switch up 1x to bring from Off to On<details><summary><b>More Details</b></summary><br>0 = Instant Off<br>5 = Fast (500ms)<br>126 = Slow (12.6s)<br>127 = Sync to Parameter 4</td>
-<td>0-127</td>
-<td>127</td>
+<td>How fast or slow the light turns on when you press the switch up 1x to bring from Off to On<details><summary><b>More Details</b></summary><br>0 = Instant Off<br>5 = Fast (500ms)<br>126 = Slow (12.6s)<br>255 = Sync to Parameter 4</td>
+<td>0-255</td>
+<td>255</td>
 <td>1</td>
 <td>1.00+</td>
 </tr>
 <tr>
 <td>9</td>
 <td>Minimum Dim Level<br><br><b>Dimmer Mode Only</b></td>
-<td>Minimum level the light switch will dim to<details><summary><b>More Details</b></summary><br>Lower the numeric value = lower the min dim level (1 = ~1%)<br><br>Higher the numeric value = higher the min dim level (99 = 99%)<br><br>Great for fixing flickering bulbs or calibrating the bulb if it shuts off prior to 1%</td>
-<td>1-99</td>
+<td>Minimum level the light switch will dim to<details><summary><b>More Details</b></summary><br>Lower the numeric value = lower the min dim level (1 = ~1%)<br><br>Higher the numeric value = higher the min dim level (54 = 99%)<br><br>Great for fixing flickering bulbs or calibrating the bulb if it shuts off prior to 1%</td>
+<td>1-54</td>
 <td>1</td>
 <td>1</td>
 <td>1.00+</td>
@@ -109,9 +109,9 @@ Date in Production: April 2023
 <tr>
 <td>10</td>
 <td>Maximum Dim Level<br><br><b>Dimmer Mode Only</b></td>
-<td>Maximum level the light switch will dim to<details><summary><b>More Details</b></summary><br>Lower the numeric value = lower the max dim level (2 = ~2%)<br><br>Higher the numeric value = higher the max dim level (100 = 100%)<br><br><b>NOTE:</b> Great for calibrating a bulb when it reaches maximum level before 100%</td>
-<td>2-100</td>
-<td>100</td>
+<td>Maximum level the light switch will dim to<details><summary><b>More Details</b></summary><br>Lower the numeric value = lower the max dim level (2 = ~2%)<br><br>Higher the numeric value = higher the max dim level (99 = 99%)<br><br><b>NOTE:</b> Great for calibrating a bulb when it reaches maximum level before 99%</td>
+<td>55-99</td>
+<td>99</td>
 <td>1</td>
 <td>1.00+</td>
 </tr>
@@ -136,27 +136,27 @@ Date in Production: April 2023
 <tr>
 <td>13</td>
 <td>Default Level - Local<br><br><b>Dimmer Mode Only</b></td>
-<td>The default dim level the switch goes to when turned on locally (at the switch)<details><summary><b>More Details</b></summary><br>0 = Off<br>1-100 = Specific level on<br>101 = Returns to prior state it was before being turned off</td>
-<td>0-101</td>
-<td>101</td>
+<td>The default dim level the switch goes to when turned on locally (at the switch)<details><summary><b>More Details</b></summary><br>1-99 = Specific level on<br>0 = Returns to prior state it was before being turned off</td>
+<td>0-99</td>
+<td>99</td>
 <td>1</td>
 <td>1.00+</td>
 </tr>
 <tr>
 <td>14</td>
 <td>Default Level - Remote<br><br><b>Dimmer Mode Only</b></td>
-<td>The default dim level the switch goes to when powered on via a remote command<details><summary><b>More Details</b></summary><br>0 = Off<br>1-100 = Specific level on<br>101 = Returns to prior state it was before being turned off</td>
-<td>0-101</td>
-<td>101</td>
+<td>The default dim level the switch goes to when powered on via a remote command<details><summary><b>More Details</b></summary><br>1-99 = Specific level on<br>0 = Returns to prior state it was before being turned off</td>
+<td>0-99</td>
+<td>99</td>
 <td>1</td>
 <td>1.00+</td>
 </tr>
 <tr>
 <td>15</td>
 <td>Level After Power Restored</td>
-<td>When power is restored, the switch reverts to either On, Off, or Last Level<details><summary><b>More Details</b></summary><br>0 = Off<br>1-100 = Specific level on<br>101 = Returns to level before power outage</td>
-<td>0-101</td>
-<td>101</td>
+<td>When power is restored, the switch reverts to either On, Off, or Last Level<details><summary><b>More Details</b></summary><br>0 = Off<br>1-99 = Specific level on<br>100 = Returns to level before power outage</td>
+<td>0-100</td>
+<td>100</td>
 <td>1</td>
 <td>1.00+</td>
 </tr>
