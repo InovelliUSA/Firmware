@@ -82,7 +82,7 @@ Date in Production: April 2023
 <tr>
 <td>7</td>
 <td>Ramp Rate (On → Off) - Remote<br><br><b>Dimmer Mode Only</b></td>
-<td>How fast or slow the light turns on when you remotely bring the switch from Off to On<details><summary><b>More Details</b></summary><br>0 = Instant Off<br>5 = Fast (500ms)<br>126 = Slow (12.6s)<br>255 = Sync to Parameter 3<br><b>NOTE:</b> Third party code may need to be implemented (device handler, driver, etc) for this to work properly. Some hubs may not support this feature.</td>
+<td>How fast or slow the light turns on when you remotely bring the switch from On to Off<details><summary><b>More Details</b></summary><br>0 = Instant Off<br>5 = Fast (500ms)<br>126 = Slow (12.6s)<br>255 = Sync to Parameter 3<br><b>NOTE:</b> Third party code may need to be implemented (device handler, driver, etc) for this to work properly. Some hubs may not support this feature.</td>
 <td>0-255</td>
 <td>255</td>
 <td>1</td>
@@ -91,7 +91,7 @@ Date in Production: April 2023
 <tr>
 <td>8</td>
 <td>Ramp Rate (On → Off) - Local<br><br><b>Dimmer Mode Only</b></td>
-<td>How fast or slow the light turns on when you press the switch up 1x to bring from Off to On<details><summary><b>More Details</b></summary><br>0 = Instant Off<br>5 = Fast (500ms)<br>126 = Slow (12.6s)<br>255 = Sync to Parameter 4</td>
+<td>How fast or slow the light turns on when you press the switch up 1x to bring from On to Off<details><summary><b>More Details</b></summary><br>0 = Instant Off<br>5 = Fast (500ms)<br>126 = Slow (12.6s)<br>255 = Sync to Parameter 4</td>
 <td>0-255</td>
 <td>255</td>
 <td>1</td>
@@ -222,6 +222,33 @@ Date in Production: April 2023
 <td>0</td>
 <td>1</td>
 <td>1.00+</td>
+</tr>
+<tr>
+<td>26</td>
+<td>L/T Edge</td>
+<td>Leading Edge or Trailing Edge mode<details><summary><b>More Details</b></summary><br>0 = Disabled <br>1 = Enabled</td>
+<td>0-1</td>
+<td>0</td>
+<td>1</td>
+<td>1.20+</td>
+</tr>
+<tr>
+<td>32</td>
+<td>Internal Temperature</td>
+<td>Reports the internal temperature of the switch<details><summary><b>More Details</b></summary><br>This parameter is read-only</td>
+<td>N/A</td>
+<td>N/A</td>
+<td>N/A</td>
+<td>1.20+</td>
+</tr>
+<tr>
+<td>33</td>
+<td>Overheat</td>
+<td>Reports when switch is overheated<details><summary><b>More Details</b></summary><br>This parameter is read-only</td>
+<td>N/A</td>
+<td>N/A</td>
+<td>N/A</td>
+<td>1.20+</td>
 </tr>
 <tr>
 <td>50</td>
