@@ -199,7 +199,7 @@ Date in Production: April 2023
 <tr>
 <td>21</td>
 <td>AC Power Type</td>
-<td>Select whether you are wiring your switch with or without a neutral wire<details><summary><b>More Details</b></summary><br>0 = No-Neutral<br>1 = Neutral</td>
+<td>See whether your switch is wired with or without a neutral wire<details><summary><b>More Details</b></summary><br>0 = No-Neutral<br>1 = Neutral</td>
 <td>0-1</td>
 <td>1</td>
 <td>1</td>
