@@ -1,6 +1,5 @@
 # <b>Inovelli Red Series On/Off Switch</b>
-*This is the repository for the Inovelli Red Series Switch that houses all firmware. 
-<br>The changelog can be found here: [Red Series On/Off Switch Changelog](https://help.inovelli.com/en/articles/8505686-red-series-on-off-switch-firmware-changelog)*
+*This is the repository for the Inovelli Red Series Switch that houses all firmware.*
 
 ### ABOUT
 
@@ -11,6 +10,10 @@
 />
 
 SKU: LZW30-SN
+<br>
+Changelog: [Red Series On/Off Switch Changelog](https://help.inovelli.com/en/articles/8505686-red-series-on-off-switch-firmware-changelog)
+<br>
+Parameter Table: [Red Series On/Off Switch Parameter Table](https://help.inovelli.com/en/articles/8217371-red-series-on-off-switch-parameters)
 
 Each file will have the words, "Beta" or "Production" next to it indicating what type of firmware it is. All of the production versions are considered stable and used for production, whereas the firmware in the "Beta" has not been fully tested and should be used at your own risk. We do our best to test it prior to releasing it, but there may be bugs that we didn't catch. Production firmware is what was put into production and is deemed stable.
 
