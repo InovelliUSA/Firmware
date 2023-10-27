@@ -11,7 +11,7 @@
 
 SKU: LZW30-SN
 
-In each product's folder, you'll see all of the production firmware alongside a folder titled, "Beta". All of the production versions are considered stable and used for production, whereas the firmware in the "Beta" has not been fully tested and should be used at your own risk. We do our best to test it prior to releasing it, but there may be bugs that we didn't catch. Production firmware is what was put into production and is deemed stable.
+Each file will have the words, "Beta" or "Production" next to it indicating what type of firmware it is. All of the production versions are considered stable and used for production, whereas the firmware in the "Beta" has not been fully tested and should be used at your own risk. We do our best to test it prior to releasing it, but there may be bugs that we didn't catch. Production firmware is what was put into production and is deemed stable.
 
 ### DISCLAIMER
 The software is provided "as is" to provide our customers the ability to update our products.
@@ -31,100 +31,8 @@ Please note that while enhancements may be requested, it may not always be possi
 
 ***
 
-## FIRMWARE CHANGELOG
-Please see below for a summary of each version's changelog. Each version will also link to its respective parameter and Z-Wave documentation. For the most up-to-date parameter table, please visit the LZW30-SN **[Parameter Table]**. 
-
-
-### V1.22 - 05/10/2021
-#### Bug Fixes
-- Fixed the bug that the V1 version of Protection Set Command would cause RF state of Protection to become enabled. This mostly affected Home Assistant users as it is still using V1 of this command class.
-
-***
-
-### V1.21 - 08/17/2020 
-#### Enhancements
-- S2 inclusion optimization for 700 series hubs. 
-
-***
-
-### V1.20 - 07/14/2020
-#### Enhancements
-- Change that optimizes Z-Wave exclusion during mass production. Intended for quality testing after assembly. 
-
-***
-
-### V1.19 - 07/06/2020
-#### Enhancements
-
-- Add parameter 51, to enable instant on (ie: disable the 700ms delay). Note, if you disable the delay, it will also disable scene control except for Button 1 (ie: tap up 1x or tap down 1x) and button 7 (config button). All other buttons (2-6) will be disabled.
-<table>
-<tr>
-<th>Parameter</th>
-<th>Size</th>
-<th>Default</th>
-<th>Range</th>
-</tr>
-<tr>
-<td>51</td>
-<td>1 Byte</td>
-<td>1</td>
-<td>
-0: No Delay</br>
-1: 700ms Delay</br></td>
-</tr>
-</table>
-
-- Added the LED color, "White" when parameter 5 is set to 255.
-
-***
-
-### V1.17 - 05/01/2020
-#### Bug Fixes
-- Fixed: when a device is not on a network, a factory reset by holding down the config button for 25 seconds does not reset the configuration. 
-- Fixed: multiple switches blink green(like they were excluded)when more than one switch is not on a z-ware network and one of those switches is 
-excluded. 
-- Fixed: when the load is off, setting parameter 3(auto off time) problem. Sometimes the timer would be incorrect the first time the load turned off. 
-- Fixed: when the parameter 3 is set from non-zero to zero, it is immediately closed if the load is on.
-
-#### Enhancements
-- Add parameter 13, for some special load types. Can be used in certain 3-way dumb switch setups where the load is confusing the switch as to which state it should be in.
-
-<table>
-<tr>
-<th>Parameter</th>
-<th>Size</th>
-<th>Default</th>
-<th>Range</th>
-</tr>
-<tr>
-<td>13</td>
-<td>1 Byte</td>
-<td>0</td>
-<td>
-0: Detect Load Type.</br>
-1: Manually set for special load type.</br>
-</tr>
-</table>
-
-***
-
-### V1.16 - 04/16/2020
-#### Bug Fixes
-- Fixed Energy & power reporting not being disabled when configuration options are set to 0.
-- Fixed Power reports flooding network when bulb power consumption fluctuates frequently. 
-- Fixed state sometimes not being restored properly when local protection is enabled.
-- Fixed the issue of sending two Meter reports when the device is powered on.
-- Fixed the issue when more than one device is associated and the switch is in S0 mode, the second device does not get commands. 
-- Fixed the bulb would occasionally blink once to OFF when re-powered if connected to a traditional switch. 
-- Fixed the parameter 7 value not being able to be set to 10 during local config mode. 
-- Fixed when the switch is ON and associated bulb is OFF, pressing the Aux switch UP would not turn on the associated bulb. 
-- Fixed when local protection is enabled, the settings for "State after power restored" did not work.
-- Fixed switch responding to Basic Set with Switch Binary Report. It now responds with a Basic Report when a Basic Set is sent and a Switch Binary Report when a Switch Binary Set is sent. 
-
-### Enhancements
-- Change the range of parameter 11 to 0,30-32767 to prevent users from choosing a value that may flood the network. 
-- Switch will send an energy report when first included into the network.
-- Since there is a "protection" that prevents the switch from sending multiple power reports (flooding) when the power is fluctuating frequently, the switch will now send a power report immediately when turned on/off and the "protection" timer will be reset. 
+### FIRMWARE CHANGELOG
+To view the changelog, please visit: [https://help.inovelli.com/en/articles/8514916-red-series-rgbtw-light-strip-kit-firmware-changelog](https://help.inovelli.com/en/articles/8505686-red-series-on-off-switch-firmware-changelog)
 
 <!----------------------------------------------------------------------------->
 
