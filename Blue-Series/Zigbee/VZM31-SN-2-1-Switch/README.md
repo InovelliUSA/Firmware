@@ -4,9 +4,9 @@
 ### About
 
 <img
-     src = 'https://cdn.shopify.com/s/files/1/0612/9519/8373/products/Inovelli2-1SwitchBlueSeriesSinglePack-VZM31-SN_1800x1800.png'
+     src = 'https://community.inovelli.com/uploads/default/original/2X/0/06250ee4ac467e83e8f5a41e29c27ef62b9e1fca.png'
      alt = 'Inovelli Blue Series 2-1 Switch On/Off'
-     width = 400
+     width = 200
 />
 
 SKU: VZM31-SN
