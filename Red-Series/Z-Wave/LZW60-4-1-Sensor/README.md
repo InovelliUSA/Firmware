@@ -4,9 +4,9 @@
 ### ABOUT
 
 <img
-     src = 'https://inovelli.com/cdn/shop/products/4-1Sensor-PackageShot_1800x1800.png.jpg?v=1661464366'
+     src = 'https://community.inovelli.com/uploads/default/original/2X/5/532df4577a36f85ba2760ed80c2bad8b667b8238.png'
      alt = 'Inovelli Red Series 4-1 Sensor'
-     width = 400
+     width = 200
 />
 
 SKU: LZW60
