@@ -4,7 +4,7 @@
 ### ABOUT
 
 <img
-     src = 'https://community.inovelli.com/uploads/default/original/2X/0/0f0a12c8d29b384ac98ee294585b69342662b4c9.png'
+     src = 'https://cdn.shopify.com/s/files/1/0612/9519/8373/products/BlueSeriesFanSwitchHero_1800x1800.png.jpg?v=1669053819'
      alt = 'Inovelli Red Series Dimmer Switch'
      width = 400
 />
