@@ -1,5 +1,8 @@
 # <b>Inovelli Red Series Fan Light Switch</b>
-*This is the repository for the Inovelli Red Series Fan/Light Switch that houses all firmware files along with release notes.*
+*This is the repository for the Inovelli Red Series Fan/Light Switch that houses all firmware files.*
+
+Changelog: [Fan/Light Switch Changelog](https://help.inovelli.com/en/articles/8513608-red-series-fan-light-switch-firmware-changelog)
+Parameter Table: [Fan/Light Switch Parameter Table](https://help.inovelli.com/en/articles/8281744-red-series-fan-light-switch-parameters)
 
 ### ABOUT
 
@@ -11,7 +14,7 @@
 
 SKU: LZW36-SN
 
-In each product's folder, you'll see all of the production firmware alongside a folder titled, "Beta". All of the production versions are considered stable and used for production, whereas the firmware in the "Beta" has not been fully tested and <b>should be used at your own risk</b>. We do our best to test it prior to releasing it, but there may be bugs that we didn't catch. Production firmware is what was put into production and is deemed stable.
+Each file will have the words, "Beta" or "Production" next to it indicating what type of firmware it is. All of the production versions are considered stable and used for production, whereas the firmware in the "Beta" has not been fully tested and <b>should be used at your own risk</b>. We do our best to test it prior to releasing it, but there may be bugs that we didn't catch. Production firmware is what was put into production and is deemed stable.
 
 ### DISCLAIMER
 The software is provided "as is" to provide our customers the ability to update our products.
@@ -30,30 +33,7 @@ If you find a bug and would like to report it, please open a **[Bug Report]** an
 Please note that while enhancements may be requested, it may not always be possible for us to do -- we will try our best, but if it cannot be done, we will explain why.
 
 ## FIRMWARE CHANGELOG
-
-### V1.36 - 08/14/2020 
-#### Bug Fixes
-- Fixed: Issue of Z-wave switch losing communication with fan module under certain scenarios. 
-
-#### Enhancements
-- Add parameter 51, to enable instant on (ie: disable the 700ms delay). Note, if you disable the delay, it will also disable scene control except for Button 1 (ie: tap up 1x or tap down 1x, held & released) and button 6, 7, 8, 9 (level up / down buttons). All other scenes will be disabled.
-
-<table>
-<tr>
-<th>Parameter</th>
-<th>Size</th>
-<th>Default</th>
-<th>Range</th>
-</tr>
-<tr>
-<td>51</td>
-<td>1 Byte</td>
-<td>0 - 1</td>
-<td>
-0: No Delay</br>
-1: 700ms Delay</br></td>
-</tr>
-</table>
+To view the changelog, please visit: [https://help.inovelli.com/en/articles/8513608-red-series-fan-light-switch-firmware-changelog](https://help.inovelli.com/en/articles/8513608-red-series-fan-light-switch-firmware-changelog)
 
 <!----------------------------------------------------------------------------->
 
