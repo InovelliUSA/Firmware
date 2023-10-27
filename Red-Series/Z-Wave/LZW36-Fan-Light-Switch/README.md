@@ -6,7 +6,7 @@
 <img
      src = 'https://community.inovelli.com/uploads/default/original/2X/4/440f4f0981ccfdaac025361ae5a3a304ecc0bc4d.png'
      alt = 'Inovelli Red Series Fan Light Switch'
-     width = 400
+     width = 200
 />
 
 SKU: LZW36-SN
