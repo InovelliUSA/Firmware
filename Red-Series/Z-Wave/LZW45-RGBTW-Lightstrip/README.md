@@ -1,7 +1,5 @@
 ## <b>Inovelli Red Series Color Light Strip</b>
-*This is the repository for the Inovelli Red Series Light Strip that houses all firmware files.
-<br>
-The changelog can be found here: [Red Series RGBTW LIght Strip Kit Changelog](https://help.inovelli.com/en/articles/8514916-red-series-rgbtw-light-strip-kit-firmware-changelog)*
+*This is the repository for the Inovelli Red Series Light Strip that houses all firmware files.*
 
 <img
      src = 'https://cdn.shopify.com/s/files/1/0612/9519/8373/products/InovelliLightStripKit_1800x1800.png.jpg?v=1659052412'
@@ -12,6 +10,10 @@ The changelog can be found here: [Red Series RGBTW LIght Strip Kit Changelog](ht
 ### About
 
 SKU: LZW45-SN
+<br>
+Changelog: [Red Series Color Light Strip Changelog](https://help.inovelli.com/en/articles/8514916-red-series-rgbtw-light-strip-kit-firmware-changelog)
+<br>
+Parameter Table: [Red Series Color Light Strip Parameter Table](https://help.inovelli.com/en/articles/8289260-red-series-rgbtw-light-strip-parameters)
 
 Each file will have the words, "Beta" or "Production" next to it indicating what type of firmware it is. **Beta firmware may be unstable and should be used at your own risk.** We do our best to test it prior to releasing it, but there may be bugs that we didn't catch. Production firmware is what was put into production and is deemed stable.
 
@@ -33,5 +35,5 @@ Please note that while enhancements may be requested, it may not always be possi
 
 ***
 
-### Changelog
+### Firmware Changelog
 To view the changelog, please visit: [https://help.inovelli.com/en/articles/8514916-red-series-rgbtw-light-strip-kit-firmware-changelog](https://help.inovelli.com/en/articles/8514916-red-series-rgbtw-light-strip-kit-firmware-changelog)
