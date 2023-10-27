@@ -1,5 +1,7 @@
 ## <b>Inovelli Red Series Color Light Strip</b>
-*This is the repository for the Inovelli Red Series Light Strip that houses all firmware files along with release notes.*
+*This is the repository for the Inovelli Red Series Light Strip that houses all firmware files.
+<br>
+The changelog can be found here: [Red Series RGBTW LIght Strip Kit Changelog](https://help.inovelli.com/en/articles/8514916-red-series-rgbtw-light-strip-kit-firmware-changelog)*
 
 <img
      src = 'https://cdn.shopify.com/s/files/1/0612/9519/8373/products/InovelliLightStripKit_1800x1800.png.jpg?v=1659052412'
@@ -29,5 +31,7 @@ If you find a bug and would like to report it, please open a **[Bug Report]** an
 
 Please note that while enhancements may be requested, it may not always be possible for us to do -- we will try our best, but if it cannot be done, we will explain why.
 
+***
+
 ### Changelog
-To view the changelog, please visit: https://help.inovelli.com/en/articles/8514916-red-series-rgbtw-light-strip-kit-firmware-changelog
+To view the changelog, please visit: [https://help.inovelli.com/en/articles/8514916-red-series-rgbtw-light-strip-kit-firmware-changelog](https://help.inovelli.com/en/articles/8514916-red-series-rgbtw-light-strip-kit-firmware-changelog)
