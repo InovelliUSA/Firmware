@@ -1,5 +1,6 @@
 # <b>Inovelli Red Series On/Off Switch</b>
-*This is the repository for the Inovelli Red Series Switch that houses all firmware files along with release notes.*
+*This is the repository for the Inovelli Red Series Switch that houses all firmware. 
+<br>The changelog can be found here: [Red Series On/Off Switch Changelog](https://help.inovelli.com/en/articles/8505686-red-series-on-off-switch-firmware-changelog)*
 
 ### ABOUT
 
