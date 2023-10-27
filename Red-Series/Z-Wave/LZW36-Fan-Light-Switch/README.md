@@ -2,6 +2,7 @@
 *This is the repository for the Inovelli Red Series Fan/Light Switch that houses all firmware files.*
 
 Changelog: [Fan/Light Switch Changelog](https://help.inovelli.com/en/articles/8513608-red-series-fan-light-switch-firmware-changelog)
+<br>
 Parameter Table: [Fan/Light Switch Parameter Table](https://help.inovelli.com/en/articles/8281744-red-series-fan-light-switch-parameters)
 
 ### ABOUT
