@@ -6,7 +6,7 @@
 <img
      src = 'https://community.inovelli.com/uploads/default/original/2X/0/06250ee4ac467e83e8f5a41e29c27ef62b9e1fca.png'
      alt = 'Inovelli Red Series 2-1 Switch'
-     width = 400
+     width = 200
 />
 
 SKU: VZW31-SN
