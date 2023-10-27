@@ -1,7 +1,5 @@
 # <b>Inovelli Red Series Dimmer Switch</b>
-*This is the repository for the Inovelli Red Series Dimmer Switch that houses all firmware files.
-<br>
-The changelog can be found here: [Red Series Dimmer Switch Changelog](https://help.inovelli.com/en/articles/8505295-red-series-dimmer-switch-firmware-changelog)*
+*This is the repository for the Inovelli Red Series Dimmer Switch that houses all firmware files.*
 
 ### ABOUT
 
@@ -12,6 +10,10 @@ The changelog can be found here: [Red Series Dimmer Switch Changelog](https://he
 />
 
 SKU: LZW31-SN
+<br>
+Changelog: [Red Series Dimmer Switch Changelog](https://help.inovelli.com/en/articles/8505295-red-series-dimmer-switch-firmware-changelog)
+<br>
+Parameter Table: [Red Series Dimmer Switch Parameter Table](https://help.inovelli.com/en/articles/8217210-red-series-dimmer-switch-parameters)
 
 In each product's folder, you'll see all of the production firmware alongside a folder titled, "Beta". All of the production versions are considered stable and used for production, whereas the firmware in the "Beta" has not been fully tested and <b>should be used at your own risk</b>. We do our best to test it prior to releasing it, but there may be bugs that we didn't catch. Production firmware is what was put into production and is deemed stable.
 
