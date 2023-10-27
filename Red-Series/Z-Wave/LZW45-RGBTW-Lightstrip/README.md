@@ -11,7 +11,7 @@
 
 SKU: LZW45-SN
 
-Each folder will have the words, "Beta" or "Production" next to the firmware file indicating what type of firmware is in each folder. **Beta firmware may be unstable and should be used at your own risk.** We do our best to test it prior to releasing it, but there may be bugs that we didn't catch. Production firmware is what was put into production and is deemed stable.
+Each file will have the words, "Beta" or "Production" next to it indicating what type of firmware it is. **Beta firmware may be unstable and should be used at your own risk.** We do our best to test it prior to releasing it, but there may be bugs that we didn't catch. Production firmware is what was put into production and is deemed stable.
 
 ### Disclaimer
 The software is provided "as is" to provide our customers the ability to update our products.
@@ -29,4 +29,5 @@ If you find a bug and would like to report it, please open a **[Bug Report]** an
 
 Please note that while enhancements may be requested, it may not always be possible for us to do -- we will try our best, but if it cannot be done, we will explain why.
 
-# Changelog
+### Changelog
+To view the changelog, please visit: https://help.inovelli.com/en/articles/8514916-red-series-rgbtw-light-strip-kit-firmware-changelog
