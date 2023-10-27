@@ -4,8 +4,8 @@
 ### ABOUT
 
 <img
-     src = 'https://cdn.shopify.com/s/files/1/0612/9519/8373/products/InovelliFanLightSwitch_1800x1800.png.jpg?v=1659052277'
-     alt = 'Inovelli Red Series 2-1  Fan Light Switch'
+     src = 'https://community.inovelli.com/uploads/default/original/2X/4/440f4f0981ccfdaac025361ae5a3a304ecc0bc4d.png'
+     alt = 'Inovelli Red Series Fan Light Switch'
      width = 400
 />
 
@@ -40,4 +40,3 @@ To view the changelog, please visit: [https://help.inovelli.com/en/articles/8513
 
 [Bug Report]: https://github.com/InovelliUSA/Firmware/issues/new?assignees=&labels=&template=firmware_bug_report.yml&title=%5BBug+Report%5D%3A+PRODUCT+-+FW+VERSION+-+HUB
 [Firmware Request]: https://github.com/InovelliUSA/Firmware/issues/new?assignees=&labels=&template=firmware_request.yml&title=%5BFirmware+Request%5D%3A+PRODUCT+-+SUMMARY
-[Parameter Table]: https://github.com/InovelliUSA/Firmware/blob/main/Red-Series/Z-Wave/LZW36-Fan-Light-Switch/Parameter-Table.md
