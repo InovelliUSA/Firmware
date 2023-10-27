@@ -2,7 +2,7 @@
 *This is the repository for the Inovelli Red Series Light Strip that houses all firmware files.*
 
 <img
-     src = 'https://cdn.shopify.com/s/files/1/0612/9519/8373/products/InovelliLightStripKit_1800x1800.png.jpg?v=1659052412'
+     src = 'https://community.inovelli.com/uploads/default/original/2X/5/5d17a261a8ae929fa464cc348823f8fb2c9930a4.png'
      alt = 'Inovelli Red Series Light Strip'
      width = 400
 />
@@ -29,7 +29,7 @@ Inovelli does not assume any responsibility for product errors related to the us
 Inovelli does not offer support on flashing firmware to the devices listed here and are only provided as a courtesy to our customers and the community.
 
 ### Bugs / Enhancements
-If you find a bug and would like to report it, please open a **[Bug Report]** and we will take a look at our earliest convenience. If you would like an enhancement, please open an **[Enhancement Request]** and we will also take a look at our earliest convenience. 
+If you find a bug and would like to report it, please open a **[Bug Report]** and we will take a look at our earliest convenience. If you would like an enhancement, please open an **[Firmware Request]** and we will also take a look at our earliest convenience. 
 
 Please note that while enhancements may be requested, it may not always be possible for us to do -- we will try our best, but if it cannot be done, we will explain why.
 
@@ -37,3 +37,8 @@ Please note that while enhancements may be requested, it may not always be possi
 
 ### Firmware Changelog
 To view the changelog, please visit: [https://help.inovelli.com/en/articles/8514916-red-series-rgbtw-light-strip-kit-firmware-changelog](https://help.inovelli.com/en/articles/8514916-red-series-rgbtw-light-strip-kit-firmware-changelog)
+
+<!----------------------------------------------------------------------------->
+
+[Bug Report]: https://github.com/InovelliUSA/Firmware/issues/new?assignees=&labels=&template=firmware_bug_report.yml&title=%5BBug+Report%5D%3A+PRODUCT+-+FW+VERSION+-+HUB
+[Firmware Request]: https://github.com/InovelliUSA/Firmware/issues/new?assignees=&labels=&template=firmware_request.yml&title=%5BFirmware+Request%5D%3A+PRODUCT+-+SUMMARY
