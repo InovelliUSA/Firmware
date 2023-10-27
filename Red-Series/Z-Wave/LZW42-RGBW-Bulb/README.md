@@ -1,5 +1,5 @@
 ## <b>Inovelli Red Series Color Bulb</b>
-*This is the repository for the Inovelli Red Series Switch that houses all firmware files along with release notes.*
+*This is the repository for the Inovelli Red Series Switch that houses all firmware files.*
 
 <img
      src = 'https://cdn.shopify.com/s/files/1/0612/9519/8373/products/InovelliRGBWSmartBulbA19_900x.png.jpg?v=1659630000'
@@ -10,6 +10,10 @@
 ### About
 
 SKU: LZW42-SN
+<br>
+Changelog: [Red Series Color Bulb Changelog](https://help.inovelli.com/en/articles/8506990-red-series-rgbw-a19-bulb-firmware-changelog)
+<br>
+Parameter Table: [Red Series Color Bulb Parameter Table](https://help.inovelli.com/en/articles/8289219-red-series-a19-bulb-parameters)
 
 Each folder will have the words, "Beta" or "Production" next to the firmware file indicating what type of firmware is in each folder. **Beta firmware may be unstable and should be used at your own risk.** We do our best to test it prior to releasing it, but there may be bugs that we didn't catch. Production firmware is what was put into production and is deemed stable.
 
@@ -29,10 +33,7 @@ If you find a bug and would like to report it, please open a **[Bug Report]** an
 
 Please note that while enhancements may be requested, it may not always be possible for us to do -- we will try our best, but if it cannot be done, we will explain why.
 
-# Changelog
+***
 
-## V2.31 - 02/25/2021
-- Quickly turn the bulb on / off 3 times to put the bulb into NON-SECURE inclusion mode.
-
-## V2.30 - 06/10/2020
-- Fixed: Removing Color Reports from unsolicited reporting of group 1 to reduce network traffic. 
+### Firmware Changelog
+To view the changelog, please visit: [https://help.inovelli.com/en/articles/8506990-red-series-rgbw-a19-bulb-firmware-changelog](https://help.inovelli.com/en/articles/8506990-red-series-rgbw-a19-bulb-firmware-changelog)
