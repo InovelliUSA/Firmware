@@ -1,10 +1,10 @@
 ## <b>Inovelli Red Series Color Bulb</b>
-*This is the repository for the Inovelli Red Series Switch that houses all firmware files.*
+*This is the repository for the Inovelli Red Series Color Bulb that houses all firmware files.*
 
 <img
-     src = 'https://cdn.shopify.com/s/files/1/0612/9519/8373/products/InovelliRGBWSmartBulbA19_900x.png.jpg?v=1659630000'
+     src = 'https://community.inovelli.com/uploads/default/original/2X/e/eccdc4d58ced296b3226cf1dc8455caa439286db.png'
      alt = 'Inovelli Red Series Bulb'
-     width = 400
+     width = 200
 />
 
 ### About
@@ -37,3 +37,8 @@ Please note that while enhancements may be requested, it may not always be possi
 
 ### Firmware Changelog
 To view the changelog, please visit: [https://help.inovelli.com/en/articles/8506990-red-series-rgbw-a19-bulb-firmware-changelog](https://help.inovelli.com/en/articles/8506990-red-series-rgbw-a19-bulb-firmware-changelog)
+
+<!----------------------------------------------------------------------------->
+
+[Bug Report]: https://github.com/InovelliUSA/Firmware/issues/new?assignees=&labels=&template=firmware_bug_report.yml&title=%5BBug+Report%5D%3A+PRODUCT+-+FW+VERSION+-+HUB
+[Firmware Request]: https://github.com/InovelliUSA/Firmware/issues/new?assignees=&labels=&template=firmware_request.yml&title=%5BFirmware+Request%5D%3A+PRODUCT+-+SUMMARY
