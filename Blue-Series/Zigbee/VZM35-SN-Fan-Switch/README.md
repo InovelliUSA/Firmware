@@ -4,9 +4,9 @@
 ### About
 
 <img
-     src = 'https://cdn.shopify.com/s/files/1/0612/9519/8373/products/BlueSeriesFanSwitchHero_1800x1800.png.jpg?v=1669053819'
+     src = 'https://community.inovelli.com/uploads/default/original/2X/0/06250ee4ac467e83e8f5a41e29c27ef62b9e1fca.png'
      alt = 'Inovelli Blue Series Fan Switch On/Off'
-     width = 400
+     width = 200
 />
 
 SKU: VZM35-SN
