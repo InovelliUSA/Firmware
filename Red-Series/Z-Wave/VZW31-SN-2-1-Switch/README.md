@@ -4,7 +4,7 @@
 ### ABOUT
 
 <img
-     src = 'https://inovelli.com/cdn/shop/products/RedSeries2-1SwitchHero_1800x1800.png.jpg?v=1669048282'
+     src = 'https://community.inovelli.com/uploads/default/original/2X/0/06250ee4ac467e83e8f5a41e29c27ef62b9e1fca.png'
      alt = 'Inovelli Red Series 2-1 Switch'
      width = 400
 />
