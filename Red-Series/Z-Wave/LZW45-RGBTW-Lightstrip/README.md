@@ -4,7 +4,7 @@
 <img
      src = 'https://community.inovelli.com/uploads/default/original/2X/5/5d17a261a8ae929fa464cc348823f8fb2c9930a4.png'
      alt = 'Inovelli Red Series Light Strip'
-     width = 400
+     width = 200
 />
 
 ### About
