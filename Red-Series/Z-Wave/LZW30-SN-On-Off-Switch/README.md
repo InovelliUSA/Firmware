@@ -1,12 +1,12 @@
 # <b>Inovelli Red Series On/Off Switch</b>
-*This is the repository for the Inovelli Red Series Switch that houses all firmware.*
+*This is the repository for the Inovelli Red Series On/Off Switch that houses all firmware.*
 
 ### ABOUT
 
 <img
-     src = 'https://cdn.shopify.com/s/files/1/0612/9519/8373/products/InovelliOn-OffSwitch_1800x1800.png.jpg?v=1659052561'
-     alt = 'Inovelli Blue Series 2-1 Switch On/Off'
-     width = 400
+     src = 'https://community.inovelli.com/uploads/default/original/2X/6/6c8bd4b16328b7ac7f4a1c7acc490c3e4efc1dc8.png'
+     alt = 'Inovelli Red Series On/Off Switch'
+     width = 200
 />
 
 SKU: LZW30-SN
@@ -36,10 +36,9 @@ Please note that while enhancements may be requested, it may not always be possi
 ***
 
 ### FIRMWARE CHANGELOG
-To view the changelog, please visit: [https://help.inovelli.com/en/articles/8514916-red-series-rgbtw-light-strip-kit-firmware-changelog](https://help.inovelli.com/en/articles/8505686-red-series-on-off-switch-firmware-changelog)
+To view the changelog, please visit: [https://help.inovelli.com/en/articles/8505686-red-series-on-off-switch-firmware-changelog](https://help.inovelli.com/en/articles/8505686-red-series-on-off-switch-firmware-changelog)
 
 <!----------------------------------------------------------------------------->
 
 [Bug Report]: https://github.com/InovelliUSA/Firmware/issues/new?assignees=&labels=&template=firmware_bug_report.yml&title=%5BBug+Report%5D%3A+PRODUCT+-+FW+VERSION+-+HUB
 [Firmware Request]: https://github.com/InovelliUSA/Firmware/issues/new?assignees=&labels=&template=firmware_request.yml&title=%5BFirmware+Request%5D%3A+PRODUCT+-+SUMMARY
-[Parameter Table]: https://github.com/InovelliUSA/Firmware/blob/main/Red-Series/Z-Wave/LZW30-SN-On-Off-Switch/Parameter-Table.md
