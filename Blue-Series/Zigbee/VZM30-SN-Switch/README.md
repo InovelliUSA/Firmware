@@ -1,6 +1,7 @@
 Inovelli Blue Series On/Off Switch
 
-<img width="290" height="548" alt="image" src="https://github.com/user-attachments/assets/7636b0cc-3e0a-47ef-9c77-57a0b8cf26b6" />
+<img width="400" height="639" alt="image" src="https://github.com/user-attachments/assets/19d7e013-b808-4622-b19d-317a6946dbcc" />
+
 
 
 
